@@ -1,5 +1,6 @@
 backend:
-  name: test-repo
+  name: github
+  repo: dougajmcdonald/dougmcdonald.co.uk
 
 media_folder: static/assets
 public_folder: assets

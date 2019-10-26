@@ -14,7 +14,7 @@ export default function Template({
   return (
     <div className="blog-post-container">
       <div className="blog-post">
-        <h1>{frontmatter.title}</h1>
+        <StyledH1>{frontmatter.title}</StyledH1>
         <h2>{frontmatter.date}</h2>
         <div
           className="blog-post-content"

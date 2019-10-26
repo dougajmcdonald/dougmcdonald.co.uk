@@ -1,5 +1,10 @@
 import React from "react"
 import { graphql } from "gatsby"
+import styled from "styled-components"
+
+const StyledH1 = styled.h1`
+  color: red;
+`
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.

@@ -7,7 +7,7 @@ const StyledH1 = styled.h1`
   color: red;
 `
 
-const Button = tw.button`
+const TailwindButton = tw.button`
   bg-blue hover:bg-blue-dark text-white p-2 rounded
 `
 
@@ -25,7 +25,7 @@ export default function Template({
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: html }}
         />
-        <Button>A tailwind button</Button>
+        <TailwindButton>A tailwind button</TailwindButton>
       </div>
     </div>
   )

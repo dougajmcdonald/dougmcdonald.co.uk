@@ -1,9 +1,14 @@
 import React from "react"
 import { graphql } from "gatsby"
 import styled from "styled-components"
+import tw from "tailwind.macro"
 
 const StyledH1 = styled.h1`
   color: red;
+`
+
+const Button = tw.button`
+  bg-blue hover:bg-blue-dark text-white p-2 rounded
 `
 
 export default function Template({
@@ -20,6 +25,7 @@ export default function Template({
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: html }}
         />
+        <Button>A tailwind button</Button>
       </div>
     </div>
   )

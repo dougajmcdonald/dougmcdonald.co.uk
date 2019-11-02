@@ -1,15 +1,5 @@
 import React from "react"
 import { graphql } from "gatsby"
-import styled from "styled-components"
-import tw from "tailwind.macro"
-
-const StyledH1 = styled.h1`
-  color: red;
-`
-
-const TailwindButton = tw.button`
-  bg-blue hover:bg-blue-dark text-white p-2 rounded
-`
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
@@ -19,13 +9,13 @@ export default function Template({
   return (
     <div className="blog-post-container">
       <div className="blog-post">
-        <StyledH1>{frontmatter.title}</StyledH1>
+        <h1>{frontmatter.title}</h1>
         <h2>{frontmatter.date}</h2>
         <div
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: html }}
         />
-        <TailwindButton>A tailwind button</TailwindButton>
+        <button className="btn">A tailwind button</button>
       </div>
     </div>
   )

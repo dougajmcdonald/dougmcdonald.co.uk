@@ -30,11 +30,11 @@ Hackathons can be quite stressful, the pressure to produce something can lead to
 
 Beyond this, we hoped to achieve the following:
 
-- Shared understanding of the system (increasing [bus factor](https://en.wikipedia.org/wiki/Bus_factor) / redundancy)
-- Common agreed approach - The team must agree the route forward, people can't [go rogue](https://www.merriam-webster.com/words-at-play/were-going-rogue) or implement changes which the team doesn't want.
-- Learn from each other - everything from technical approach to keyboard shortcuts
-- Shared ownership - Less individual stress and pressure because the team is equally responsible for delivering
-- No significant slowdown in output - Whilst in theory one person typing is slower than 5, other efficiencies can be realised, such as: no merge conflicts, no dependencies on development in serial and no configuration inconsistencies
+- _Shared understanding_ of the system (increasing [bus factor](https://en.wikipedia.org/wiki/Bus_factor) / redundancy)
+- _Common agreed approach_ - The team must agree the route forward, people can't [go rogue](https://www.merriam-webster.com/words-at-play/were-going-rogue) or implement changes which the team doesn't want.
+- _Learn from each other_ - everything from technical approach to keyboard shortcuts
+- _Shared ownership_ - Less individual stress and pressure because the team is equally responsible for delivering
+- _No significant slowdown in output_ - Whilst in theory one person typing is slower than 5, other efficiencies can be realised, such as: no merge conflicts, no dependencies on development in serial and no configuration inconsistencies
 
 ## Potential concerns
 

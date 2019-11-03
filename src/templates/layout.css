@@ -20,6 +20,26 @@ p > a {
   @apply text-primary underline font-semibold;
 }
 
+ul {
+  @apply italic text-access-grey ml-3xl mt-xl font-light;
+}
+
+ul > li {
+  @apply mb-base list-disc;
+}
+
+em {
+  @apply font-semibold;
+}
+
+blockquote {
+  @apply border-l-8 border-primary ml-2xl pl-2xl italic pt-lg pb-lg mt-xl mb-xl;
+}
+
+blockquote > p {
+  @apply mb-auto text-lg;
+}
+
 .lede {
   @apply text-lg font-light mt-base text-access-grey;
 }

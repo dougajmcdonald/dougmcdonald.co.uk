@@ -8,7 +8,7 @@ const PostLink = ({ post }) => (
   >
     <img
       src={post.frontmatter.image}
-      alt="article lead image"
+      alt="article lead"
       className="w-7xl inline-block mr-3xl"
     />
     <div className="w-2/3 flex flex-col inline-block">

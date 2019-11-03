@@ -11,7 +11,7 @@ This post talks you through how to setup a Nifi docker container and automate th
 
 I recently had to spin up a NiFi container in docker and wanted to create a default state with a template and workflow already present.
 
-![Docker logo](docker-logo.png)
+![Docker logo](../assets/docker-logo.png)
 
 This process is not too well documented by Apache so I hope someone finds this useful!
 
@@ -23,7 +23,7 @@ To avoid each developer having to install and build the tools from scratch we op
 
 ## Docker &amp NiFi
 
-![NiFi logo](nifi-logo.png)
+![NiFi logo](../assets/nifi-logo.png)
 
 Apache has an official [docker image](https://hub.docker.com/r/apache/nifi/) for NiFi; you can use docker to run this image with a dockerfile like this.
 

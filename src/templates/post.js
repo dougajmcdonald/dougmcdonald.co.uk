@@ -8,18 +8,10 @@ export default function Template({ data }) {
   const { frontmatter, html } = markdownRemark
   return (
     <Layout>
-      <div className="blog-post-container">
-        <div className="blog-post">
-          <span className="date">{frontmatter.date}</span>
-          <h1>{frontmatter.title}</h1>
-
-          <div
-            className="blog-post-content"
-            dangerouslySetInnerHTML={{ __html: html }}
-          />
-          <button className="btn">A tailwind button</button>
-        </div>
-      </div>
+      <span className="date">{frontmatter.date}</span>
+      <h1>{frontmatter.title}</h1>
+      <span className="inline-block h-sm bg-primary w-6xl mb-2xl"></span>
+      <div dangerouslySetInnerHTML={{ __html: html }} />
     </Layout>
   )
 }

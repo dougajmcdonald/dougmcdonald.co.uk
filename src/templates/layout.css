@@ -1,7 +1,7 @@
 @tailwind base;
 
 h1 {
-  @apply font-display text-3xl font-bold mb-lg text-not-quite-black;
+  @apply font-display text-3xl font-bold text-not-quite-black;
 }
 
 h2 {
@@ -21,7 +21,7 @@ p > a {
 }
 
 .lede {
-  @apply text-lg font-light mt-base w-4/5 text-access-grey;
+  @apply text-lg font-light mt-base text-access-grey;
 }
 
 .date {

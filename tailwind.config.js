@@ -23,13 +23,15 @@ module.exports = {
       "2xl": "2.369rem",
       "3xl": "3.157rem",
       "4xl": "4.209rem",
-      "5xl": "5.61em",
-      "6xl": "7.478em",
+      "5xl": "5.61rem",
+      "6xl": "7.478rem",
+      "7xl": "9.969rem",
     },
     extend: {
       colors: {
         primary: "#2DCACA",
         "access-grey": "#545454",
+        "not-quite-black": "#161111",
       },
     },
   },

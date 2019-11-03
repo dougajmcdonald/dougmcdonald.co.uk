@@ -41,7 +41,7 @@ blockquote > p {
 }
 
 .lede {
-  @apply text-lg font-light mt-base text-access-grey;
+  @apply text-lg font-light mt-base text-access-grey w-4/5;
 }
 
 .date {

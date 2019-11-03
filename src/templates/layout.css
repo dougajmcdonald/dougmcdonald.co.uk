@@ -15,7 +15,11 @@ h3 {
 }
 
 p {
-  @apply font-body text-base text-access-grey;
+  @apply font-body text-base text-access-grey mb-lg leading-relaxed;
+}
+
+a {
+  @apply text-primary underline font-semibold;
 }
 
 .lede {

@@ -4,6 +4,20 @@ h1 {
   @apply font-display text-3xl font-bold mt-4xl mb-lg;
 }
 
+h2 {
+  @apply font-display text-xl text-primary mt-3xl mb-lg;
+  text-transform: uppercase;
+}
+
+h3 {
+  @apply font-display text-xl text-black font-medium tracking-wide;
+  text-transform: uppercase;
+}
+
+p {
+  @apply font-body text-base text-access-grey;
+}
+
 .lede {
   @apply text-lg font-light mt-base w-4/5;
 }

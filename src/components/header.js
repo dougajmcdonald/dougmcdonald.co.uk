@@ -7,7 +7,7 @@ const Header = () => (
         <svg className="self-center" height="54" width="54">
           <circle className="logo" cx="26" cy="26" r="22" />
         </svg>
-        <span className="self-center text-xl font-display ml-base inline-block">
+        <span className="self-center text-xl font-display ml-base inline-block leading-wider">
           DOUG MCDONALD
         </span>
       </section>

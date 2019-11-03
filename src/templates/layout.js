@@ -3,6 +3,7 @@ import React from "react"
 import "typeface-source-sans-pro"
 import "typeface-archivo-narrow"
 import Header from "../components/header"
+import Footer from "../components/footer"
 
 import "./layout.css"
 
@@ -10,9 +11,9 @@ const Layout = ({ children }) => (
   <div className="flex flex-col">
     <Header />
 
-    <main className="flex-1 w-2/3 mx-auto">{children}</main>
+    <main className="flex-1 w-2/3 mx-auto h-screen min-h-full">{children}</main>
 
-    <footer className="flex-1 w-full bg-green-500 h-5xl"></footer>
+    <Footer />
   </div>
 )
 

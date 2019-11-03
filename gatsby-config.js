@@ -7,7 +7,12 @@
 module.exports = {
   plugins: [
     `gatsby-plugin-netlify-cms`,
-    `gatsby-transformer-remark`,
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        excerpt_separator: `<!-- end -->`,
+      },
+    },
     `gatsby-plugin-postcss`,
     {
       resolve: `gatsby-source-filesystem`,

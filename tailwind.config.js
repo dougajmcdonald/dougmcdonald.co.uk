@@ -12,8 +12,8 @@ module.exports = {
       "2xl": "2.369rem" /*37.9px*/,
       "3xl": "3.157rem" /*50.52px*/,
       "4xl": "4.209rem" /*67px*/,
-      "5xl": "5.61em",
-      "6xl": "7.478em",
+      "5xl": "5.61em" /* 89px */,
+      "6xl": "7.478em" /* 120px */,
     },
     spacing: {
       sm: ".75rem",
@@ -29,6 +29,7 @@ module.exports = {
     extend: {
       colors: {
         primary: "#2DCACA",
+        "access-grey": "#545454",
       },
     },
   },

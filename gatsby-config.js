@@ -11,18 +11,6 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         excerpt_separator: `<!-- end -->`,
-        plugins: [
-          {
-            resolve: "gatsby-remark-custom-blocks",
-            options: {
-              blocks: {
-                excerpt: {
-                  classes: "excerpt",
-                },
-              },
-            },
-          },
-        ],
       },
     },
     `gatsby-plugin-postcss`,

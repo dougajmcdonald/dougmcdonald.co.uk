@@ -1,24 +1,22 @@
 @tailwind base;
 
 h1 {
-  @apply font-display text-3xl font-bold mt-4xl mb-lg text-not-quite-black;
+  @apply font-display text-3xl font-bold mb-lg text-not-quite-black;
 }
 
 h2 {
-  @apply font-display text-xl text-primary mt-3xl mb-lg;
-  text-transform: uppercase;
+  @apply font-display text-xl text-primary mt-3xl mb-lg uppercase;
 }
 
 h3 {
-  @apply font-display text-xl text-black font-medium tracking-wide text-not-quite-black;
-  text-transform: uppercase;
+  @apply font-display text-xl text-black font-medium tracking-wide text-not-quite-black uppercase mb-lg;
 }
 
 p {
   @apply font-body text-base text-access-grey mb-lg leading-relaxed;
 }
 
-a {
+p > a {
   @apply text-primary underline font-semibold;
 }
 
@@ -26,8 +24,12 @@ a {
   @apply text-lg font-light mt-base w-4/5 text-access-grey;
 }
 
+.date {
+  @apply font-display text-base text-not-quite-black uppercase;
+}
+
 .navlink {
-  @apply font-display text-base text-not-quite-black tracking-widest inline-block w-5xl mr-xl border-b-4 border-primary pb-sm;
+  @apply font-display text-base text-not-quite-black tracking-widest inline-block w-5xl mr-xl border-b-4 border-primary pb-sm no-underline;
   text-transform: uppercase;
 }
 

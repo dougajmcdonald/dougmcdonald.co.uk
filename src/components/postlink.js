@@ -2,7 +2,10 @@ import React from "react"
 import { Link } from "gatsby"
 
 const PostLink = ({ post }) => (
-  <Link to={post.frontmatter.path} className="flex flex-row mt-3xl">
+  <Link
+    to={post.frontmatter.path}
+    className="flex flex-row mt-3xl no-underline"
+  >
     <img
       src={post.frontmatter.image}
       alt="article lead image"

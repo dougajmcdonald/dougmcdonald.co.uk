@@ -1,7 +1,7 @@
 import React from "react"
 
 const Header = () => (
-  <header className="h-6xl w-full ">
+  <header className="h-6xl w-full mb-4xl">
     <div className="w-2/3 h-full flex flex-row mx-auto justify-center border-b-2 border-gray-200">
       <section className="flex flex-row flex-1 items-start h-full">
         <svg className="self-center" height="54" width="54">

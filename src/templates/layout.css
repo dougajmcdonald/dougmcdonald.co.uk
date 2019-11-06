@@ -1,7 +1,7 @@
 @tailwind base;
 
 h1 {
-  @apply font-display text-3xl font-bold text-not-quite-black;
+  @apply font-display text-3xl font-bold text-not-quite-black w-2/3;
 }
 
 h2 {
@@ -49,8 +49,11 @@ blockquote > p {
 }
 
 .navlink {
-  @apply font-display text-base text-not-quite-black tracking-widest inline-block w-5xl mr-xl border-b-4 border-primary pb-sm no-underline;
-  text-transform: uppercase;
+  @apply font-display text-base text-not-quite-black tracking-widest inline-block w-5xl mr-xl border-b-4 border-primary pb-sm no-underline uppercase;
+}
+
+.footerlink {
+  @apply mr-lg ml-lg font-medium;
 }
 
 .logo {

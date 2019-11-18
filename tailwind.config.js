@@ -34,6 +34,9 @@ module.exports = {
         "not-quite-black": "#161111",
       },
     },
+    variants: {
+      text: ["hover"],
+    },
   },
   variants: {},
   plugins: [],

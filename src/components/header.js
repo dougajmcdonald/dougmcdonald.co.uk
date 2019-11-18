@@ -24,9 +24,9 @@ const Header = () => (
         </a>
       </nav>
     </div>
-    <svg className="absolute top-0 right-0 h-full">
-      <g transform="translate(50) rotate(315)">
-        <rect width="40" height="450" fill="#2dcaca"></rect>
+    <svg className="absolute top-0 right-0 h-full w-1/4 md:w-1/6">
+      <g transform="rotate(315)">
+        <rect width="12%" height="450" fill="#2dcaca"></rect>
       </g>
     </svg>
   </header>

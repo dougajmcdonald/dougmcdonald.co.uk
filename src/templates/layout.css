@@ -52,14 +52,18 @@ blockquote > p {
   @apply font-display text-base text-not-quite-black tracking-widest inline-block w-5xl mr-xl border-b-4 border-primary pb-sm no-underline uppercase;
 }
 
-.footerlink {
-  @apply mr-lg ml-lg font-medium;
-}
-
 .logo {
   fill: white;
   stroke: #2dcaca;
   stroke-width: 5;
+}
+
+.footerlink {
+  @apply mr-lg ml-lg font-medium leading-loose;
+}
+
+.footerlink:hover {
+  @apply underline;
 }
 
 @tailwind components;

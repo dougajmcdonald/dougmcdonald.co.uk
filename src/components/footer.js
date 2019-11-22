@@ -5,13 +5,9 @@ import Github from "../images/logo-github.svg"
 import Twitter from "../images/logo-twitter.svg"
 
 const Footer = () => (
-  <footer className="w-full relative h-full mt-5xl">
+  <footer className="w-full relative h-full mb-2xl">
     <section className="flex flex-col items-center">
-      <svg
-        className="absolute left-0 w-1/4 md:w-1/6"
-        top="100%"
-        viewBox="20 0 100 100"
-      >
+      <svg className="absolute left-0 w-1/4 md:w-1/6" viewBox="20 0 100 100">
         <g transform="rotate(315)">
           <rect height="300px" width="12%" fill="#2dcaca"></rect>
         </g>

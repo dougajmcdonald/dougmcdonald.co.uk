@@ -13,7 +13,7 @@ const PostLink = ({ post }) => (
     />
     <div className="w-2/3 flex flex-col inline-block">
       <h3>{post.frontmatter.title}</h3>
-      <p className="leading-relaxed">{post.excerpt}</p>
+      <p className="leading-loose">{post.excerpt}</p>
     </div>
   </Link>
 )

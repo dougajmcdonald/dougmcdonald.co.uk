@@ -5,6 +5,7 @@ module.exports = {
       body: ['"Source sans pro"'],
     },
     fontSize: {
+      xs: "0.563rem",
       sm: ".75rem",
       base: "1rem" /*16px*/,
       lg: "1.333rem" /*21.33px*/,
@@ -16,6 +17,8 @@ module.exports = {
       "6xl": "7.478em" /* 120px */,
     },
     spacing: {
+      xxs: "0.422rem",
+      xs: "0.563rem",
       sm: ".75rem",
       base: "1rem",
       lg: "1.333rem",

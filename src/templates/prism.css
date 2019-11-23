@@ -23,7 +23,7 @@ pre[class*="language-"] {
   -ms-hyphens: none;
   hyphens: none;
 
-  @apply border-l-2 p-base border-primary mt-2xl mb-2xl text-access-grey;
+  @apply border-l-2 p-base border-primary mt-2xl mb-2xl ml-sm text-access-grey;
 }
 
 /* Code blocks */

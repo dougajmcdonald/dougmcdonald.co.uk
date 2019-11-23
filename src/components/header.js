@@ -13,7 +13,7 @@ const Header = () => (
         >
           <circle className="logo" r="44" />
           <text
-            text-anchor="middle"
+            textAnchor="middle"
             alignmentBaseline="middle"
             fontSize="xx-large"
             className="font-display fill-current"

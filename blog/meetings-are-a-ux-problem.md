@@ -1,7 +1,7 @@
 ---
 path: /blog/meetings-are-a-ux-problem
 date: 2019-11-18T18:44:00.000Z
-image: ../assets/mob-programming.png
+image: images/mob-programming.png
 title: Meetings are a User Experience problem
 ---
 

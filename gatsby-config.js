@@ -5,12 +5,27 @@
  */
 
 module.exports = {
+  siteMetadata: {
+    siteUrl: `https://www.dougmcdonald.co.uk`,
+  },
   plugins: [
-    `gatsby-plugin-netlify-cms`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-feed`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {
-        excerpt_separator: `<!-- end -->`,
+        plugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              // It's important to specify the maxWidth (in pixels) of
+              // the content container as this plugin uses this as the
+              // base for generating different widths of each image.
+              maxWidth: 590,
+            },
+          },
+        ],
       },
     },
     `gatsby-plugin-postcss`,
@@ -25,7 +40,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `blog-images`,
-        path: `${__dirname}/static/assets`,
+        path: `${__dirname}/blog/images`,
       },
     },
     {
@@ -36,5 +51,6 @@ module.exports = {
         },
       },
     },
+    `gatsby-plugin-netlify-cms`,
   ],
 }

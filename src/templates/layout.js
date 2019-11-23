@@ -1,11 +1,13 @@
 import PropTypes from "prop-types"
 import React from "react"
 import "typeface-source-sans-pro"
+import "typeface-source-code-pro"
 import "typeface-archivo-narrow"
 import Header from "../components/header"
 import Footer from "../components/footer"
 
 import "./layout.css"
+import "./prism.css"
 
 const Layout = ({ children }) => (
   <div className="flex flex-col">

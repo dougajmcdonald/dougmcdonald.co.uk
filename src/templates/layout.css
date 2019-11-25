@@ -52,7 +52,8 @@ blockquote > p {
   @apply font-display text-base font-medium text-access-grey tracking-widest inline-block mr-3xl pb-xxs no-underline uppercase border-b-4 border-transparent;
 }
 
-.navlink:hover {
+.navlink:hover,
+.navlink-active {
   @apply border-primary border-b-4;
 }
 

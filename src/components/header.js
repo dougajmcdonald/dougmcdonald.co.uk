@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 
 const Header = () => (
-  <header className="h-6xl w-full mb-4xl">
+  <header className="h-5xl w-full mb-4xl">
     <div className="w-2/3 h-full flex flex-row mx-auto justify-center border-b-2 border-gray-200">
       <Link to="/" className="flex flex-row flex-1 items-start h-full -ml-4xl">
         <svg
@@ -27,15 +27,19 @@ const Header = () => (
         </span>
       </Link>
       <nav className="flex-1 self-center ml-3xl">
-        <a className="navlink" href="/blog">
+        <Link className="navlink" to="/" activeClassName="navlink-active">
           BLOG
-        </a>
-        <a className="navlink" href="/contact">
+        </Link>
+        <Link
+          className="navlink"
+          to="/contact"
+          activeClassName="navlink-active"
+        >
           CONTACT
-        </a>
-        <a className="navlink" href="/about">
+        </Link>
+        <Link className="navlink" to="/about" activeClassName="navlink-active">
           ABOUT
-        </a>
+        </Link>
       </nav>
     </div>
     <svg

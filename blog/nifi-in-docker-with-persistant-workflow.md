@@ -1,7 +1,7 @@
 ---
-path: /nifi-in-docker-with-persistant-workflow
+path: /nifi-in-docker-with-persistent-workflow
 date: 2019-10-24T20:06:48.831Z
-title: NIFI in Docker with persistant workflow
+title: NIFI in Docker with persistent workflow
 image: images/nifi-logo.png
 ---
 

@@ -1,11 +1,13 @@
 ---
-path: blog/continuous-delivery-for-node-apps-in-azure
+path: /blog/continuous-delivery-with-node-and-azure
 date: 2017-12-28T18:06:55.962Z
-title: Continuous delivery for node apps in azure
 image: images/microsoft-logo-png-azure-5.png
+title: Continuous delivery for node apps in azure
 ---
 
 This post describes how you can test, build and deploy a JavaScript app which required external tooling to build (such as Ember, Gatsby or Create React App) to Azure websites as simply as possible.
+
+<!-- end -->
 
 Whilst the Azure documentation claims to be able to do this, every time I've tried many hours have been lost trying to debug kudu configs with zero success.
 

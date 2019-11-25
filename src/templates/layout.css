@@ -1,19 +1,19 @@
 @tailwind base;
 
 h1 {
-  @apply font-display text-3xl font-bold text-not-quite-black w-2/3;
+  @apply font-display text-3xl font-bold text-not-quite-black w-2/3 leading-tight;
 }
 
 h2 {
-  @apply font-display text-xl text-primary mt-3xl mb-lg uppercase;
+  @apply font-display text-xl text-primary mt-3xl mb-lg;
 }
 
 h3 {
-  @apply font-display text-xl text-black font-medium tracking-wide text-not-quite-black uppercase mb-lg;
+  @apply font-display text-lg text-black font-medium tracking-wide text-not-quite-black mb-lg mt-3xl;
 }
 
 p {
-  @apply font-body text-base text-access-grey mb-lg leading-relaxed;
+  @apply font-body text-base text-access-grey mb-lg leading-normal;
 }
 
 p > a {
@@ -33,7 +33,7 @@ em {
 }
 
 blockquote {
-  @apply border-primary pl-2xl italic pt-lg pb-lg mt-xl mb-xl;
+  @apply border-primary pl-lg pr-lg italic pt-lg pb-lg mt-xl mb-xl;
 }
 
 blockquote > p {
@@ -61,6 +61,14 @@ blockquote > p {
   fill: white;
   stroke: #2dcaca;
   stroke-width: 8;
+}
+
+.postlink {
+  @apply flex flex-row mt-4xl no-underline;
+}
+
+.postlink:hover h3 {
+  @apply underline;
 }
 
 .footerlink {

@@ -37,8 +37,10 @@ export const pageQuery = graphql`
               childImageSharp {
                 # Specify the image processing specifications right in the query.
                 # Makes it trivial to update as your page's design changes.
-                fixed(width: 125, height: 125) {
-                  ...GatsbyImageSharpFixed
+                fixed(width: 150, height: 120, quality: 100) {
+                  base64
+                  src
+                  srcSet
                 }
               }
             }

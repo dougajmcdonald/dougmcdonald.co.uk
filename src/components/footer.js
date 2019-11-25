@@ -27,6 +27,10 @@ const Footer = () => (
         <Link className="footerlink" to="/contact">
           Contact
         </Link>
+        |
+        <Link className="footerlink" to="/rss.xml">
+          RSS
+        </Link>
       </nav>
       <div className="flex flex-row m-lg">
         <a href="https://www.github.com/dougajmcdonald">

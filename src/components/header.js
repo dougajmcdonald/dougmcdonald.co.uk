@@ -39,11 +39,11 @@ const Header = () => (
       </nav>
     </div>
     <svg
-      className="absolute top-0 right-0 w-1/4 md:w-1/6"
-      viewBox="0 0 100 100"
+      className="absolute top-0 right-0 w-1/4 md:w-1/6 text-primary"
+      viewBox="-25 0 100 100"
     >
       <g transform="rotate(315)">
-        <rect width="12%" height="450" fill="#2dcaca"></rect>
+        <rect width="12%" height="450" className="fill-current"></rect>
       </g>
     </svg>
   </header>

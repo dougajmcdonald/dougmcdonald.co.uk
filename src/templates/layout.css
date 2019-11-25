@@ -49,7 +49,11 @@ blockquote > p {
 }
 
 .navlink {
-  @apply font-display text-base font-medium text-access-grey tracking-widest inline-block w-5xl mr-xl border-b-4 border-primary pb-xxs no-underline uppercase;
+  @apply font-display text-base font-medium text-access-grey tracking-widest inline-block mr-3xl pb-xxs no-underline uppercase border-b-4 border-transparent;
+}
+
+.navlink:hover {
+  @apply border-primary border-b-4;
 }
 
 .logo {

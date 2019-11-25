@@ -7,9 +7,12 @@ import Twitter from "../images/logo-twitter.svg"
 const Footer = () => (
   <footer className="w-full relative h-full mb-2xl">
     <section className="flex flex-col items-center">
-      <svg className="absolute left-0 w-1/4 md:w-1/6" viewBox="20 0 100 100">
+      <svg
+        className="absolute left-0 w-1/4 md:w-1/6 text-primary"
+        viewBox="50 0 100 100"
+      >
         <g transform="rotate(315)">
-          <rect height="300px" width="12%" fill="#2dcaca"></rect>
+          <rect height="300px" width="12%" className="fill-current"></rect>
         </g>
       </svg>
       <nav className="text-access-grey font-display tracking-widest uppercase">

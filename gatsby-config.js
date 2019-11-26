@@ -6,6 +6,7 @@
 
 module.exports = {
   siteMetadata: {
+    title: `Doug McDonald`,
     siteUrl: `https://mystifying-dijkstra-6c1b83.netlify.com/`,
     description: `My website`,
   },

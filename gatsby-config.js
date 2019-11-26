@@ -13,7 +13,6 @@ module.exports = {
   plugins: [
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-feed`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {

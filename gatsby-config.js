@@ -7,6 +7,7 @@
 module.exports = {
   siteMetadata: {
     siteUrl: `https://www.dougmcdonald.co.uk`,
+    description: `My website`,
   },
   plugins: [
     `gatsby-plugin-sharp`,

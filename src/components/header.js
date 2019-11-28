@@ -22,7 +22,7 @@ const Header = () => (
             dm
           </text>
         </svg>
-        <span className="self-center text-xl font-display ml-base inline-block leading-wider">
+        <span className="self-center text-xl font-body ml-base inline-block leading-wider">
           DOUG MCDONALD
         </span>
       </Link>

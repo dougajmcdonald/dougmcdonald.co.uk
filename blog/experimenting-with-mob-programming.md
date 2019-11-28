@@ -1,7 +1,7 @@
 ---
 path: /blog/experimenting-with-mob-programming
 date: 2018-10-04T20:59:52.322Z
-image: images/mob-programming.png
+image: images/mob-programming-lede.png
 title: Experimenting with Mob Programming
 ---
 

@@ -16,7 +16,6 @@ export default ({
   return (
     <Layout>
       <Lede></Lede>
-      <h2>Blog</h2>
       {posts}
     </Layout>
   )

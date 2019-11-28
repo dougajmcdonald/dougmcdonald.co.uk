@@ -1,7 +1,7 @@
 @tailwind base;
 
 h1 {
-  @apply font-display text-3xl font-bold text-not-quite-black w-2/3 leading-tight;
+  @apply font-display text-4xl font-bold text-not-quite-black w-2/3 leading-tight;
 }
 
 h2 {
@@ -13,7 +13,7 @@ h3 {
 }
 
 h3.post-title {
-  @apply mt-auto mb-xxs text-2xl font-bold;
+  @apply mt-auto mb-xxs text-2xl font-semibold;
 }
 
 p {
@@ -67,11 +67,11 @@ blockquote > p {
   stroke-width: 8;
 }
 
-.postlink {
-  @apply flex flex-row mt-4xl no-underline;
+.post-link {
+  @apply flex flex-row mt-5xl no-underline;
 }
 
-.postlink:hover h3 {
+.post-link:hover h3 {
   @apply underline;
 }
 

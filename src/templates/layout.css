@@ -9,7 +9,11 @@ h2 {
 }
 
 h3 {
-  @apply font-display text-lg text-black font-medium tracking-wide text-not-quite-black mb-lg mt-3xl;
+  @apply font-display text-lg text-black font-medium text-not-quite-black mb-lg mt-3xl;
+}
+
+h3.post-title {
+  @apply mt-auto mb-xxs text-2xl font-bold;
 }
 
 p {
@@ -45,7 +49,7 @@ blockquote > p {
 }
 
 .date {
-  @apply font-display text-base text-not-quite-black uppercase;
+  @apply font-display text-base text-access-grey uppercase;
 }
 
 .navlink {

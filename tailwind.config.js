@@ -17,6 +17,7 @@ module.exports = {
       "6xl": "7.478em" /* 120px */,
     },
     spacing: {
+      xxxs: "0.317rem",
       xxs: "0.422rem",
       xs: "0.563rem",
       sm: ".75rem",

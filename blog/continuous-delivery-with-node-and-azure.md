@@ -1,7 +1,7 @@
 ---
 path: /blog/continuous-delivery-with-node-and-azure
 date: 2017-12-28T18:06:55.962Z
-image: images/microsoft-logo-png-azure-5.png
+image: images/azure_lede.png
 title: Continuous delivery for node apps in azure
 ---
 

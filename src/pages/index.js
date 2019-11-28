@@ -36,7 +36,7 @@ export const pageQuery = graphql`
               childImageSharp {
                 # Specify the image processing specifications right in the query.
                 # Makes it trivial to update as your page's design changes.
-                resize(width: 220) {
+                resize(width: 220, quality: 100) {
                   src
                   width
                   height

@@ -25,7 +25,7 @@ module.exports = {
               // base for generating different widths of each image.
               maxWidth: 590,
               wrapperStyle:
-                "margin-left: 0!important; margin-right: 0!important;",
+                "margin-left: 0!important; margin-right: 0!important; border: 1px solid #D5CFE1 !important;",
             },
           },
         ],

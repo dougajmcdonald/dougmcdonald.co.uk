@@ -2,10 +2,10 @@ import React from "react"
 
 const Lede = () => (
   <React.Fragment>
-    <h1>Making a difference</h1>
+    <h1>Making a difference is hard</h1>
     <p className="lede">
-      is hard. I lead teams, empower individuals and mentor colleagues. I build
-      teams built on trust and self belief.
+      I lead teams, empower individuals and mentor colleagues. I build teams
+      built on trust and self belief.
     </p>
     <p className="lede">
       I’ve been a software engineer for over fifteen years and I’m passionate

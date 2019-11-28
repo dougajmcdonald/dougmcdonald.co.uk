@@ -2,7 +2,7 @@
 path: /nifi-in-docker-with-persistent-workflow
 date: 2019-10-24T20:06:48.831Z
 title: NIFI in Docker with persistent workflow
-image: images/nifi-logo.png
+image: images/nifi.png
 ---
 
 This post talks you through how to setup a Nifi docker container and automate the inclusion of a custom processor `.nar` file, an existing `template.xml` and a `workflow` in a running state.

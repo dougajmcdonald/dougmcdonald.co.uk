@@ -27,16 +27,20 @@ const Header = () => (
         </span>
       </Link>
       <nav className="flex-1 self-center ml-3xl">
-        <Link className="navlink" to="/" activeClassName="navlink-active">
+        <Link className="nav-link" to="/" activeClassName="nav-link-active">
           BLOG
         </Link>
-        <Link className="navlink" to="/about" activeClassName="navlink-active">
+        <Link
+          className="nav-link"
+          to="/about"
+          activeClassName="nav-link-active"
+        >
           ABOUT
         </Link>
         <Link
-          className="navlink"
+          className="nav-link"
           to="/contact"
-          activeClassName="navlink-active"
+          activeClassName="nav-link-active"
         >
           CONTACT
         </Link>

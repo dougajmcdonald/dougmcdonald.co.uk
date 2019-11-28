@@ -36,6 +36,7 @@ module.exports = {
         primary: "#2DCACA",
         "access-grey": "#545454",
         "not-quite-black": "#161111",
+        white: "#fff",
       },
     },
     variants: {

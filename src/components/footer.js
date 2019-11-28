@@ -16,15 +16,15 @@ const Footer = () => (
         </g>
       </svg>
       <nav className="text-access-grey font-display tracking-widest uppercase mt-3xl">
-        <Link className="footerlink" to="/">
-          Home
+        <Link className="footer-link" to="/">
+          Blog
         </Link>
         |
-        <Link className="footerlink" to="/about">
+        <Link className="footer-link" to="/about">
           About
         </Link>
         |
-        <Link className="footerlink" to="/contact">
+        <Link className="footer-link" to="/contact">
           Contact
         </Link>
       </nav>

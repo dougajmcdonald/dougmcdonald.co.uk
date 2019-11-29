@@ -16,10 +16,6 @@ h1 {
   .lede {
     @apply w-2/3;
   }
-
-  .upshadow {
-    box-shadow: none;
-  }
 }
 
 h2 {

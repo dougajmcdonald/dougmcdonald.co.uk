@@ -5,7 +5,7 @@ import Github from "../images/logo-github.svg"
 import Twitter from "../images/logo-twitter.svg"
 
 const Footer = () => (
-  <footer className="w-full relative h-full">
+  <footer className="w-full relative h-full hidden md:inline-block">
     <section className="flex flex-col items-center">
       <svg
         className="absolute left-0 w-1/4 md:w-1/6 text-primary"

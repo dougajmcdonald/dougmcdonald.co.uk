@@ -4,7 +4,7 @@ h1 {
   @apply font-display text-3xl w-3/4 font-bold text-not-quite-black  leading-tight;
 }
 
-@screen lg {
+@screen md {
   h1 {
     @apply text-4xl w-2/3;
   }
@@ -14,7 +14,11 @@ h1 {
   }
 
   .lede {
-    @apply w-4/5;
+    @apply w-2/3;
+  }
+
+  .upshadow {
+    box-shadow: none;
   }
 }
 
@@ -75,7 +79,7 @@ blockquote > p {
 }
 
 .nav-link {
-  @apply font-display text-base font-medium text-access-grey tracking-widest inline-block mr-3xl pb-xxs no-underline uppercase border-b-4 border-transparent;
+  @apply font-display text-base font-medium text-access-grey tracking-widest ml-3xl mr-3xl pb-xxs mt-sm no-underline uppercase border-b-4 border-transparent;
 }
 
 .nav-link:hover,
@@ -103,6 +107,10 @@ blockquote > p {
 
 .footer-link:hover {
   @apply underline;
+}
+
+.upshadow {
+  box-shadow: 0 -4px 8px rgba(196, 196, 196, 0.4);
 }
 
 @tailwind components;

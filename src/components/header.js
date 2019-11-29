@@ -3,8 +3,11 @@ import { Link } from "gatsby"
 
 const Header = () => (
   <header className="h-5xl w-full mb-4xl">
-    <div className="w-2/3 h-full flex flex-row mx-auto justify-center border-b-2 border-gray-200">
-      <Link to="/" className="flex flex-row flex-1 items-start h-full -ml-4xl">
+    <div className="w-3/4 md:w-2/3 h-full flex flex-row mx-auto justify-center border-b-2 border-gray-200">
+      <Link
+        to="/"
+        className="flex flex-row flex-1 items-start h-full md:-ml-4xl"
+      >
         <svg
           className="self-center text-access-grey font-medium"
           height="54"
@@ -22,11 +25,11 @@ const Header = () => (
             dm
           </text>
         </svg>
-        <span className="self-center text-xl font-body ml-base inline-block leading-wider">
+        <span className="self-center text-lg md:text-xl font-body ml-base inline-block leading-wider">
           DOUG MCDONALD
         </span>
       </Link>
-      <nav className="flex-1 self-center ml-3xl">
+      <nav className="w-full fixed bottom-0 left-0 flex flex-row items-center justify-center h-4xl bg-white upshadow pb-xxs z-50 md:relative md:ml-3xl md:h-auto md:flex-1">
         <Link className="nav-link" to="/" activeClassName="nav-link-active">
           BLOG
         </Link>

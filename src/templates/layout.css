@@ -1,7 +1,21 @@
 @tailwind base;
 
 h1 {
-  @apply font-display text-4xl font-bold text-not-quite-black w-2/3 leading-tight;
+  @apply font-display text-3xl w-3/4 font-bold text-not-quite-black  leading-tight;
+}
+
+@screen lg {
+  h1 {
+    @apply text-4xl w-2/3;
+  }
+
+  h3.post-title {
+    @apply text-2xl;
+  }
+
+  .lede {
+    @apply w-4/5;
+  }
 }
 
 h2 {
@@ -13,7 +27,7 @@ h3 {
 }
 
 h3.post-title {
-  @apply mt-auto mb-xxs text-2xl font-semibold;
+  @apply mt-auto mb-xxs text-xl font-semibold;
 }
 
 p {
@@ -53,7 +67,7 @@ blockquote > p {
 }
 
 .lede {
-  @apply text-lg font-light mt-base text-access-grey w-4/5;
+  @apply text-lg font-light mt-base text-access-grey w-full;
 }
 
 .date {

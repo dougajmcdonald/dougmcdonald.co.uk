@@ -11,7 +11,10 @@ export default function Template({ data }) {
       <span className="date">{frontmatter.date}</span>
       <h1>{frontmatter.title}</h1>
       <span className="inline-block h-sm bg-primary w-6xl mb-2xl mt-sm"></span>
-      <div className="w-2/3" dangerouslySetInnerHTML={{ __html: html }} />
+      <div
+        className="w-full lg:w-2/3"
+        dangerouslySetInnerHTML={{ __html: html }}
+      />
     </Layout>
   )
 }

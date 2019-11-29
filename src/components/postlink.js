@@ -9,7 +9,7 @@ const PostLink = ({ post: { excerpt, frontmatter } }) => (
       alt="article lead"
       width={frontmatter.image.childImageSharp.resize.width}
       height={frontmatter.image.childImageSharp.resize.height}
-      className="inline-block mr-3xl"
+      className="inline-block mr-sm lg:mr-3xl"
     />
     <div className="w-2/3 flex flex-col inline-block">
       <span className="date">{frontmatter.date}</span>

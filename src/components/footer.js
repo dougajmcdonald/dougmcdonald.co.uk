@@ -5,7 +5,7 @@ import Github from "../images/logo-github.svg"
 import Twitter from "../images/logo-twitter.svg"
 
 const Footer = () => (
-  <footer className="w-full relative h-full hidden md:inline-block">
+  <footer className="w-full relative h-full mb-6xl md:mb-auto">
     <section className="flex flex-col items-center">
       <svg
         className="absolute left-0 w-1/4 md:w-1/6 text-primary"
@@ -15,7 +15,7 @@ const Footer = () => (
           <rect height="300px" width="12%" className="fill-current"></rect>
         </g>
       </svg>
-      <nav className="text-access-grey font-display tracking-widest uppercase mt-3xl">
+      <nav className="text-access-grey font-display tracking-widest uppercase mt-3xl hidden md:inline-block">
         <Link className="footer-link" to="/">
           Blog
         </Link>

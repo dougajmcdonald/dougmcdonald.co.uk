@@ -79,7 +79,7 @@ blockquote > p {
 }
 
 .nav-link {
-  @apply font-display text-base font-medium text-access-grey tracking-widest ml-xl mr-xl pb-xxs mt-sm no-underline uppercase border-b-4 border-transparent;
+  @apply font-display text-base font-medium text-access-grey tracking-widest ml-2xl mr-2xl pb-xxs mt-sm no-underline uppercase border-b-4 border-transparent;
 }
 
 .nav-link:hover,

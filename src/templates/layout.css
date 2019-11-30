@@ -82,7 +82,7 @@ blockquote:after {
 } */
 
 blockquote > p {
-  @apply text-lg text-not-quite-black;
+  @apply text-lg text-not-quite-black mx-lg;
 }
 
 .date {

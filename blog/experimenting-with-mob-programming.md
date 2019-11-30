@@ -40,13 +40,13 @@ Beyond this, we hoped to achieve the following:
 
 The Mob Programming process is quite a long way from our standard day to day development practices. There were some initial worries, typical concerns include:
 
-> "Can we actually get anything done?"
+> Can we actually get anything done?
 
-> "Isn't this going to be slower?"
+> Isn't this going to be slower?
 
-> "What do we do when we don't know what to type?"
+> What do we do when we don't know what to type?
 
-> "What do we do if a team member isn't there?"
+> What do we do if a team member isn't there?
 
 ## What happened
 
@@ -58,9 +58,9 @@ After deciding on our IDE we chose to use React & Create React App to scaffold t
 
 What's interesting is that the more experienced developers naturally started explaining not only how to achieve tasks, but what was happening,
 
-> "now it's installing the dependencies"
+> now it's installing the dependencies
 
-> "you get a skeleton test setup out of the box"
+> you get a skeleton test setup out of the box
 
 ## Hitting a problem
 
@@ -70,7 +70,7 @@ We naturally stopped typing and time ticked away as we discussed possible option
 
 One important observation is that as we discussed hacky workarounds such as tweaking the browser security settings (it was a hackathon after all!) the group organically came to the conclusion that
 
-> "we may as well do it properly"
+> we may as well do it properly
 
 I truly feel that the group had at this point made a decision about it's attitude to code quality which meant we weren't going to be able to get away with the type of hacks you may be tempted to sneak in as an individual _"to save time"_.
 
@@ -91,7 +91,7 @@ Typically this took the form of one person drawing a solution and presenting it 
 
 We learnt a lot as a team, both how to perform tasks and how to explain processes, clear communication was critical, especially when instructing the _typer_. For example, asking the _typer_ to insert content between two lines ended up as:
 
-> "Insert `<code>` on line 8.5"
+> Insert `<code>` on line 8.5
 
 Whilst there are some possible issues, particularly around team members who are naturally more introverted I believe an understanding team can find a way to ensure their voice is heard.
 
@@ -107,28 +107,28 @@ For anyone who's interested the app we wrote is on [GitHub](https://github.com/b
 
 Here is a list of quote I captured over the 3 days:
 
-> "I’m having too much fun"
+> I’m having too much fun
 
-> "That’s a game changer"
+> That’s a game changer
 
-> "This is a really good learning exercise"
+> This is a really good learning exercise
 
-> "I feel like I’m getting a free coding lesson / training"
+> I feel like I’m getting a free coding lesson / training
 
-> "This would be really good for complex stuff"
+> This would be really good for complex stuff
 
-> "What awesome feature are we doing next?"
+> What awesome feature are we doing next?
 
-> "Squirly braces"
+> Squirly braces
 
-> "How do I do that?"
+> How do I do that?
 
-> "You can do that with <shortcut>"
+> You can do that with <shortcut>
 
-> "What’s a back-tick?"
+> What’s a back-tick?
 
-> "Did we ask you to type that?"
+> Did we ask you to type that?
 
-> "If my work day was like this every day, I’d be loving life"
+> If my work day was like this every day, I’d be loving life
 
-> "Where is the *&(*£&ing hash key"
+> Where is the *&(*£&ing hash key

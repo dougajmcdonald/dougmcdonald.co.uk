@@ -15,6 +15,7 @@ const AboutLede = () => (
       Or I can do none of those things and build a team which will do it for
       you.
     </p>
+    {/* <img src={About1} width="200px" height="200px" /> */}
   </React.Fragment>
 )
 

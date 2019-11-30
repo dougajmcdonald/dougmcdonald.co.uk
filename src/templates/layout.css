@@ -4,6 +4,10 @@ h1 {
   @apply font-display text-3xl w-3/4 font-bold text-not-quite-black  leading-tight;
 }
 
+.lede {
+  @apply text-lg font-light mt-base text-access-grey w-full;
+}
+
 @screen md {
   h1 {
     @apply text-4xl w-2/3;
@@ -13,12 +17,12 @@ h1 {
     @apply text-2xl;
   }
 
-  .lede {
-    @apply w-2/3;
-  }
-
   .nav-link {
     @apply ml-3xl mr-3xl;
+  }
+
+  .lede {
+    @apply w-2/3;
   }
 }
 
@@ -63,15 +67,22 @@ em {
 }
 
 blockquote {
-  @apply border-primary pl-lg pr-lg italic pt-lg pb-lg mt-xl mb-xl;
+  @apply font-bold font-body flex flex-row items-start justify-start my-2xl;
+  quotes: "“" "”" "‘" "’";
+}
+
+blockquote:before {
+  @apply bg-primary inline-block h-3xl text-white font-bold text-2xl px-sm;
+  content: open-quote;
+}
+
+blockquote:after {
+  @apply text-white;
+  content: close-quote;
 }
 
 blockquote > p {
-  @apply mb-auto text-lg;
-}
-
-.lede {
-  @apply text-lg font-light mt-base text-access-grey w-full;
+  @apply text-lg ml-lg font-normal text-not-quite-black;
 }
 
 .date {

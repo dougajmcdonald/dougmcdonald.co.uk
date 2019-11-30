@@ -3,7 +3,10 @@ import { Link } from "gatsby"
 import Img from "gatsby-image"
 
 const PostLink = ({ post: { excerpt, frontmatter } }) => (
-  <Link to={frontmatter.path} className="post-link flex-wrap md:flex-no-wrap">
+  <Link
+    to={frontmatter.path}
+    className="post-link flex flex-row mt-3xl no-underline flex-wrap md:flex-no-wrap md:mt-5xl"
+  >
     <Img
       fixed={frontmatter.image.childImageSharp.resize}
       alt="article lead"

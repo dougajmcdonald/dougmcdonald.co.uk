@@ -104,10 +104,6 @@ blockquote > p {
   stroke-width: 8;
 }
 
-.post-link {
-  @apply flex flex-row mt-5xl no-underline;
-}
-
 .post-link:hover h3 {
   @apply underline;
 }

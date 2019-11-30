@@ -1,7 +1,7 @@
 @tailwind base;
 
 h1 {
-  @apply font-display text-3xl w-3/4 font-bold text-not-quite-black  leading-tight;
+  @apply font-display text-3xl w-3/4 font-bold text-not-quite-black leading-none;
 }
 
 .lede {

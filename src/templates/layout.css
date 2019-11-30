@@ -1,7 +1,7 @@
 @tailwind base;
 
 h1 {
-  @apply font-display text-3xl w-3/4 font-bold text-not-quite-black leading-none;
+  @apply font-display text-3xl w-3/4 font-bold text-not-quite-black leading-tight;
 }
 
 .lede {
@@ -35,7 +35,7 @@ h3 {
 }
 
 h3.post-title {
-  @apply mt-auto mb-xxs text-xl font-semibold;
+  @apply mt-auto mb-xxs text-xl font-semibold leading-tight;
 }
 
 p {
@@ -67,11 +67,11 @@ em {
 }
 
 blockquote {
-  @apply font-bold font-body flex flex-row items-start justify-start my-2xl;
+  @apply font-semibold font-body italic my-2xl;
   quotes: "“" "”" "‘" "’";
 }
 
-blockquote:before {
+/* blockquote:before {
   @apply bg-primary inline-block h-3xl text-white font-bold text-2xl px-sm;
   content: open-quote;
 }
@@ -79,10 +79,10 @@ blockquote:before {
 blockquote:after {
   @apply text-white;
   content: close-quote;
-}
+} */
 
 blockquote > p {
-  @apply text-lg ml-lg font-normal text-not-quite-black;
+  @apply text-lg text-not-quite-black;
 }
 
 .date {

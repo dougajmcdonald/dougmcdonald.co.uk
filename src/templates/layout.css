@@ -13,6 +13,14 @@ h1 {
     @apply text-4xl w-2/3;
   }
 
+  h2 {
+    @apply mt-3xl;
+  }
+
+  h3 {
+    @apply mt-3xl;
+  }
+
   h3.post-title {
     @apply text-2xl;
   }
@@ -31,11 +39,11 @@ h1 {
 }
 
 h2 {
-  @apply font-display text-xl text-primary mt-3xl mb-lg;
+  @apply font-display text-xl text-primary mt-2xl mb-lg;
 }
 
 h3 {
-  @apply font-display text-lg text-black font-medium text-not-quite-black mb-lg mt-3xl;
+  @apply font-display text-lg text-black font-medium text-not-quite-black mb-lg mt-2xl;
 }
 
 h3.post-title {

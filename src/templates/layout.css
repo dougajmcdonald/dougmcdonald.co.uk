@@ -42,6 +42,10 @@ h3.post-title {
   @apply mt-auto mb-xxs text-xl font-semibold leading-tight;
 }
 
+h4 {
+  @apply font-display text-base text-black font-bold text-not-quite-black mb-sm mt-lg;
+}
+
 p {
   @apply font-body text-base text-access-grey mb-lg leading-normal;
 }

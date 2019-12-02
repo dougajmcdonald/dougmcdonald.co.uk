@@ -22,7 +22,7 @@ code[class*="language-"] {
   -ms-hyphens: none;
   hyphens: none;
 
-  @apply border-l-2 p-base border-primary mt-2xl mb-2xl ml-sm bg-gray-100 text-access-grey;
+  @apply border-l-2 p-base border-primary mt-2xl mb-2xl mx-sm bg-gray-100 text-access-grey;
 }
 
 /* Code blocks */
@@ -189,22 +189,4 @@ pre[class*="language-"]:after {
 .token.cr:before,
 .token.lf:before {
   color: #e0d7d1;
-}
-
-/* Plugin styles: Line Numbers */
-pre[class*="language-"].line-numbers code {
-  padding-left: 3.8em;
-}
-
-pre[class*="language-"].line-numbers .line-numbers-rows {
-  left: 0;
-}
-
-/* Plugin styles: Line Highlight */
-pre[data-line] code {
-  position: relative;
-  padding-left: 4em;
-}
-pre .line-highlight {
-  margin-top: 0;
 }

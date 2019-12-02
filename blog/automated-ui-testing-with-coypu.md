@@ -29,9 +29,10 @@ The core functionality of Selenium still seems to be the go-to place for automat
 
 ![Coypu](images/coypu.png)
 
-That ladies and gentlemen is a Coypu ... It's not quite what you think, I am actually referring to the [Coypu](https://github.com/featurist/coypu) testing library which claims:
+That ladies and gentlemen is a Coypu ... It's not quite what you think, I am actually referring to the [Coypu](https://github.com/featurist/coypu) testing library.
 
 > Coypu supports browser automation in .Net to help make tests readable, robust, fast to write and less tightly coupled to the UI
+
 > If your tests are littered with sleeps, retries, complex XPath expressions and IDs dug out of the source with FireBug then Coypu might help. - **GitHub Readme.md**
 
 This sounded promising as the problems with complex expressions and issues with timings had been problems we'd experienced in the past and being able to de-couple UI tests from the UI implementation seemed like an interesting idea.

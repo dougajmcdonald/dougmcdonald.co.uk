@@ -15,7 +15,7 @@ const Footer = () => (
           <rect height="300px" width="12%" className="fill-current"></rect>
         </g>
       </svg>
-      <nav className="text-access-grey font-display tracking-widest uppercase mt-3xl hidden md:inline-block">
+      <nav className="text-access-grey font-display tracking-widest uppercase mt-xl hidden md:inline-block">
         <Link className="footer-link" to="/">
           Blog
         </Link>

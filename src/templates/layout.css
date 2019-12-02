@@ -17,6 +17,10 @@ h1 {
     @apply text-2xl;
   }
 
+  blockquote {
+    @apply my-2xl;
+  }
+
   .nav-link {
     @apply ml-3xl mr-3xl;
   }
@@ -67,19 +71,8 @@ em {
 }
 
 blockquote {
-  @apply font-semibold font-body italic my-2xl;
-  quotes: "“" "”" "‘" "’";
+  @apply font-semibold font-body italic my-xl;
 }
-
-/* blockquote:before {
-  @apply bg-primary inline-block h-3xl text-white font-bold text-2xl px-sm;
-  content: open-quote;
-}
-
-blockquote:after {
-  @apply text-white;
-  content: close-quote;
-} */
 
 blockquote > p {
   @apply text-lg text-not-quite-black mx-lg;

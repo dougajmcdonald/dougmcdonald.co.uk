@@ -4,8 +4,7 @@
  * @author Tim  Shedor
  */
 
-code[class*="language-"],
-pre[class*="language-"] {
+code[class*="language-"] {
   background: none;
   font-family: "Source-Code-pro", monospace;
   text-align: left;
@@ -23,24 +22,19 @@ pre[class*="language-"] {
   -ms-hyphens: none;
   hyphens: none;
 
-  @apply border-l-2 p-base border-primary mt-2xl mb-2xl ml-sm text-access-grey;
+  @apply border-l-2 p-base border-primary mt-2xl mb-2xl ml-sm bg-gray-100 text-access-grey;
 }
 
 /* Code blocks */
-pre[class*="language-"] {
+/* pre[class*="language-"] {
   position: relative;
-  box-shadow: -1px 0px 0px 0px #358ccb, 0px 0px 0px 1px #dfdfdf;
   background-color: #fdfdfd;
-  background-image: linear-gradient(
-    transparent 50%,
-    rgba(69, 142, 209, 0.04) 50%
-  );
   background-size: 3em 3em;
   background-origin: content-box;
   overflow: visible;
 
   @apply border-primary border-l-8;
-}
+} */
 
 code[class*="language"] {
   max-height: inherit;
@@ -50,26 +44,31 @@ code[class*="language"] {
 }
 
 /* Margin bottom to accomodate shadow */
-:not(pre) > code[class*="language-"],
+/* :not(pre) > code[class*="language-"],
 pre[class*="language-"] {
   background-color: #fdfdfd;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   margin-bottom: 1em;
-}
+} */
 
 /* Inline code */
 :not(pre) > code[class*="language-"] {
   position: relative;
-  border-radius: 0.3em;
-  color: #c92c2c;
   border: 1px solid rgba(0, 0, 0, 0.1);
   display: inline;
   white-space: normal;
+  padding: 0;
+
+  @apply text-access-grey px-xxxs mx-xxxs;
 }
 
-pre[class*="language-"]:before,
+blockquote :not(pre) > code[class*="language-"] {
+  @apply text-access-grey not-italic font-normal;
+}
+
+/* pre[class*="language-"]:before,
 pre[class*="language-"]:after {
   content: "";
   z-index: -2;
@@ -86,9 +85,9 @@ pre[class*="language-"]:after {
   -ms-transform: rotate(-2deg);
   -o-transform: rotate(-2deg);
   transform: rotate(-2deg);
-}
+} */
 
-:not(pre) > code[class*="language-"]:after,
+/* :not(pre) > code[class*="language-"]:after,
 pre[class*="language-"]:after {
   right: 0.75em;
   left: auto;
@@ -97,7 +96,7 @@ pre[class*="language-"]:after {
   -ms-transform: rotate(2deg);
   -o-transform: rotate(2deg);
   transform: rotate(2deg);
-}
+} */
 
 .token.comment,
 .token.block-comment,

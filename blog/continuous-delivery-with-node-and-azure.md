@@ -37,7 +37,7 @@ This project will act as the container for your workflows and a workflow is wher
 
 ### Setting up a workflow
 
-Next you need to setup a workflow, click on the `Workflow` tab in Wercker and you will probably see a default workflow and a pipeline below both called `build`. If you do, click on the build pipeline and rename it to something like `deploy`.
+Next you need to setup a workflow, click on the `workflow` tab in Wercker and you will probably see a default workflow and a pipeline below both called `build`. If you do, click on the build pipeline and rename it to something like `deploy`.
 
 A workflow is a collection of one or more pipelines, and a pipeline is set of steps in a wercker.yml which describes a process you wish wercker to perform.
 
@@ -92,9 +92,9 @@ The other three parameters are the FTP publish url, username and password to use
 ### Secrets
 
 You'll notice in the `wercker-labs/azure-ftp-deploy` step we don't provide any real values. The reason for this is that we want the `wercker.yml` to sit in source control and this in the case of GitHub would be publicly accessible.
-Instead of the real values, we can use `environment variables` which are denoted by the `$` prefix and we can then use `Wercker` to provide these when it executes the workflow at build time.
+Instead of the real values, we can use `environment variables` which are denoted by the `$` prefix and we can then use Wercker to provide these when it executes the workflow at build time.
 
-You can add secrets in Wercker by going to the `Environment` tab and adding the three keys `publish_url`, `username` and `password` as shown below.
+You can add secrets in Wercker by going to the Environment tab and adding the three keys `publish_url`, `username` and `password` as shown below.
 
 ![Wercker Secrets](images/azure-4.png)
 

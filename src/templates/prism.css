@@ -21,7 +21,6 @@ code[class*="language-"] {
   -moz-hyphens: none;
   -ms-hyphens: none;
   hyphens: none;
-  background-color: #E1E4E6;
 
   @apply p-base mt-2xl mb-2xl text-access-grey;
 }
@@ -41,7 +40,6 @@ code[class*="language"] {
   white-space: normal;
   padding: 0;
   margin: 0;
-  background-color: #E1E4E6;
 
   @apply text-access-grey px-xxxs;
 }

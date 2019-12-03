@@ -41,7 +41,7 @@ code[class*="language"] {
   padding: 0;
   margin: 0;
 
-  @apply text-access-grey px-xxxs;
+  @apply text-access-grey px-xxxs bg-gray-200;
 }
 
 blockquote :not(pre) > code[class*="language-"] {

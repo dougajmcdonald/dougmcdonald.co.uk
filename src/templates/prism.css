@@ -21,20 +21,10 @@ code[class*="language-"] {
   -moz-hyphens: none;
   -ms-hyphens: none;
   hyphens: none;
+  background-color: #E1E4E6;
 
-  @apply p-base mt-2xl mb-2xl bg-gray-100 text-access-grey;
+  @apply p-base mt-2xl mb-2xl text-access-grey;
 }
-
-/* Code blocks */
-/* pre[class*="language-"] {
-  position: relative;
-  background-color: #fdfdfd;
-  background-size: 3em 3em;
-  background-origin: content-box;
-  overflow: visible;
-
-  @apply border-primary border-l-8;
-} */
 
 code[class*="language"] {
   max-height: inherit;
@@ -42,16 +32,6 @@ code[class*="language"] {
   display: block;
   overflow: auto;
 }
-
-/* Margin bottom to accomodate shadow */
-/* :not(pre) > code[class*="language-"],
-pre[class*="language-"] {
-  background-color: #fdfdfd;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  margin-bottom: 1em;
-} */
 
 /* Inline code */
 :not(pre) > code[class*="language-"] {
@@ -61,6 +41,7 @@ pre[class*="language-"] {
   white-space: normal;
   padding: 0;
   margin: 0;
+  background-color: #E1E4E6;
 
   @apply text-access-grey px-xxxs;
 }
@@ -68,36 +49,6 @@ pre[class*="language-"] {
 blockquote :not(pre) > code[class*="language-"] {
   @apply text-access-grey not-italic font-normal;
 }
-
-/* pre[class*="language-"]:before,
-pre[class*="language-"]:after {
-  content: "";
-  z-index: -2;
-  display: block;
-  position: absolute;
-  bottom: 0.75em;
-  left: 0.18em;
-  width: 40%;
-  height: 20%;
-  max-height: 13em;
-  box-shadow: 0px 13px 8px #979797;
-  -webkit-transform: rotate(-2deg);
-  -moz-transform: rotate(-2deg);
-  -ms-transform: rotate(-2deg);
-  -o-transform: rotate(-2deg);
-  transform: rotate(-2deg);
-} */
-
-/* :not(pre) > code[class*="language-"]:after,
-pre[class*="language-"]:after {
-  right: 0.75em;
-  left: auto;
-  -webkit-transform: rotate(2deg);
-  -moz-transform: rotate(2deg);
-  -ms-transform: rotate(2deg);
-  -o-transform: rotate(2deg);
-  transform: rotate(2deg);
-} */
 
 .token.comment,
 .token.block-comment,

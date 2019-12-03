@@ -1,41 +1,11 @@
 @tailwind base;
 
 h1 {
-  @apply font-display text-3xl w-3/4 font-bold text-not-quite-black leading-tight;
+  @apply font-display text-3xl w-3/4 font-bold text-not-quite-black leading-none;
 }
 
 .lede {
   @apply text-lg font-light mt-base text-access-grey w-full;
-}
-
-@screen md {
-  h1 {
-    @apply text-4xl w-2/3;
-  }
-
-  h2 {
-    @apply mt-3xl;
-  }
-
-  h3 {
-    @apply mt-3xl;
-  }
-
-  h3.post-title {
-    @apply text-2xl;
-  }
-
-  blockquote {
-    @apply my-2xl;
-  }
-
-  .nav-link {
-    @apply ml-3xl mr-3xl;
-  }
-
-  .lede {
-    @apply w-2/3;
-  }
 }
 
 h2 {
@@ -123,6 +93,36 @@ blockquote > p {
 
 .upshadow {
   box-shadow: 0 -4px 8px rgba(196, 196, 196, 0.4);
+}
+
+@screen md {
+  h1 {
+    @apply text-4xl w-2/3;
+  }
+
+  h2 {
+    @apply mt-3xl;
+  }
+
+  h3 {
+    @apply mt-3xl;
+  }
+
+  h3.post-title {
+    @apply text-2xl;
+  }
+
+  blockquote {
+    @apply my-2xl;
+  }
+
+  .nav-link {
+    @apply ml-3xl mr-3xl;
+  }
+
+  .lede {
+    @apply w-2/3;
+  }
 }
 
 @tailwind components;

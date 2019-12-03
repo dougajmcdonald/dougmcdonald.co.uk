@@ -71,7 +71,7 @@ So what's going on here? wercker uses [Kubernetes](http://www.kubernetes.com) un
 
 We can then see a the pipeline step we called `deploy`.
 
-> NOTE: The step here must match the name you gave your pipeline in Wercker.
+__NOTE: The step here must match the name you gave your pipeline in Wercker.__
 
 Next we have two `steps` denoted by a minus `-` and the indentation level.
 The first is a `script` step with three commands called `gatsby build`. It first installs the `gatsby-cli` (this could equally be `create-react-app`, `ember-cli` or similar) which is the tooling you need to actually build your site.

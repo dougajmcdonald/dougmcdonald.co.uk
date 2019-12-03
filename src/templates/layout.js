@@ -12,7 +12,7 @@ import "./prism.css"
 const Layout = ({ children }) => (
   <div className="flex flex-col">
     <Header />
-    <main className="flex-1 w-3/4 lg:w-2/3 mx-auto h-screen min-h-full mb-5xl">
+    <main className="flex-1 w-3/4 md:w-3/5 mx-auto h-screen min-h-full mb-5xl">
       {children}
     </main>
     <Footer />

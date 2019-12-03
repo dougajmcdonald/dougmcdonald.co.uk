@@ -30,13 +30,13 @@ const Footer = () => (
       </nav>
       <div className="flex flex-row m-lg">
         <a href="https://www.github.com/dougajmcdonald">
-          <Github className="w-lg h-lg text-access-grey fill-current mr-lg hover:text-primary" />
+          <Github className="w-lg h-lg text-access-grey fill-current mr-xl hover:text-primary" />
         </a>
         <a href="https://www.twitter.com/dougajmcdonald">
-          <Twitter className="w-lg h-lg text-access-grey fill-current hover:text-primary" />
+          <Twitter className="w-lg h-lg ml-xl text-access-grey fill-current hover:text-primary" />
         </a>
       </div>
-      <span className="text-primary font-display tracking-widest">
+      <span className="text-access-grey font-display tracking-widest">
         dougmcdonald.co.uk &copy; 2019
       </span>
     </section>

@@ -1,14 +1,13 @@
 import React from "react"
 import { Link } from "gatsby"
-import Img from "gatsby-image"
 
 const PostLink = ({ post: { excerpt, frontmatter } }) => (
   <Link
     to={frontmatter.path}
     className="post-link flex flex-row mt-3xl no-underline flex-wrap md:flex-no-wrap md:mt-5xl"
   >
-    <Img
-      fixed={frontmatter.image.childImageSharp.resize}
+    <img
+      src={frontmatter.image.childImageSharp.resize.src}
       alt="article lead"
       width={frontmatter.image.childImageSharp.resize.width}
       height={frontmatter.image.childImageSharp.resize.height}

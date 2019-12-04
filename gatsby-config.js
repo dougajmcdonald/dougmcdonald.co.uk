@@ -6,9 +6,13 @@
 
 module.exports = {
   siteMetadata: {
-    title: `Doug McDonald`,
-    siteUrl: `https://mystifying-dijkstra-6c1b83.netlify.com/`,
-    description: `My website`,
+    title: "Doug McDonald - Blog",
+    titleTemplate: "%s · Superblog!",
+    description:
+      "Doug McDonald's personal blog, articles about coding, web-design and user experience.",
+    url: "https://www.dougmcdonald.co.uk", // No trailing slash allowed!
+    image: "/image.png", // Path to your image you placed in the 'static' folder
+    twitterUsername: "@dougajmcdonald",
   },
   plugins: [
     `gatsby-plugin-sharp`,
@@ -18,6 +22,7 @@ module.exports = {
       options: {
         plugins: [
           `gatsby-remark-prismjs`,
+          `gatsby-plugin-react-helmet`,
           {
             resolve: `gatsby-remark-images`,
             options: {

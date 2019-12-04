@@ -29,10 +29,10 @@ const Footer = () => (
         </Link>
       </nav>
       <div className="flex flex-row m-lg">
-        <a href="https://www.github.com/dougajmcdonald">
+        <a href="https://www.github.com/dougajmcdonald" aria-label="Twitter">
           <Github className="w-xl h-xl text-access-grey fill-current mr-xl hover:text-primary" />
         </a>
-        <a href="https://www.twitter.com/dougajmcdonald">
+        <a href="https://www.twitter.com/dougajmcdonald" aria-label="Github">
           <Twitter className="w-xl h-xl ml-xl text-access-grey fill-current hover:text-primary" />
         </a>
       </div>

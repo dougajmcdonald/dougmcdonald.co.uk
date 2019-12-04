@@ -10,6 +10,8 @@ export default () => {
         I'd love to hear from you if you want to discuss any of my blog posts,
         or in general. I believe communication is the key to solving problems,
         solve a problem and give me a shout!
+      </p>
+      <p>
         <a href="mailto:dougajmcdonald@gmail.com">Email me</a>
       </p>
     </Layout>

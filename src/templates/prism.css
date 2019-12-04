@@ -22,7 +22,7 @@ code[class*="language-"] {
   -ms-hyphens: none;
   hyphens: none;
 
-  @apply p-base mt-2xl mb-2xl text-access-grey bg-gray-200;
+  @apply p-base mt-xl mb-xl text-access-grey bg-gray-200;
 }
 
 code[class*="language"] {

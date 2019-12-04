@@ -70,7 +70,7 @@ blockquote > p {
 
 .nav-link:hover,
 .nav-link-active {
-  @apply border-primary border-b-4;
+  @apply border-primary border-b-4 cursor-pointer;
 }
 
 .logo {

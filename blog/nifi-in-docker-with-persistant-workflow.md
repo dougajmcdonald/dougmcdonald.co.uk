@@ -93,7 +93,7 @@ docker cp <container_id>:/opt/nifi/nifi-1.6.0/conf/flow.xml.gz flow.xml.gz
 
 We now have a copy of our NiFi state. Next we need to use that state when we run our container. To do this we can use `COPY` again to copy the file back in each time we start the container.
 
-> NOTE: COPY always copies as root so the user the container runs as (nifi:nifi) won't have access to the file once we copy the file in. We can run a `--chown` at the same time to give ownership to the `nifi` user.
+__NOTE: COPY always copies as root so the user the container runs as (nifi:nifi) won't have access to the file once we copy the file in. We can run a `--chown` at the same time to give ownership to the `nifi` user.__
 
 ```docker
 FROM apache/nifi:latest

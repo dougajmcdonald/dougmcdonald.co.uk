@@ -9,7 +9,7 @@ h1 {
 }
 
 h2 {
-  @apply font-display text-xl text-primary mt-2xl mb-lg;
+  @apply font-display text-xl text-primary mt-2xl mb-base;
 }
 
 h3 {

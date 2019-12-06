@@ -10,7 +10,7 @@ const PostLink = ({ post: { excerpt, frontmatter } }) => (
     <Img
       fixed={frontmatter.image.childImageSharp.fixed}
       alt="article lead"
-      className="inline-block mr-sm lg:mr-3xl"
+      className="inline-block mr-sm md:mr-3xl"
     />
     <div className="flex flex-col inline-block md:w-2/3 mt-base md:mt-auto">
       <span className="date">{frontmatter.date}</span>

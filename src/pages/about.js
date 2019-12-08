@@ -11,12 +11,12 @@ export default () => {
       <p className="md:w-2/3">
         My name is Doug McDonald, I’m the User Experience Capability lead at
         BMT. I live in Wiltshire, UK with my wife Kim and our daughter Phoebe. I
-        enjoy developing software, but my passion has always been web design.
+        enjoy developing software and my passion is designing user interfaces.
       </p>
       <p className="md:w-2/3">
         I’m lucky enough to be able to combine my coding expertise with my
-        personality and design skills to lead a talented team at BMT where we
-        design services for complex user needs in an enterprise environment.
+        design skills and lead a talented team at BMT where we design digital
+        services for complex user needs in an enterprise environment.
       </p>
       <h2>Background</h2>
       <p className="md:w-2/3">
@@ -31,20 +31,42 @@ export default () => {
         implementation of the IBM Artemis7, helping capture requirements and
         building an online help system to guide users on the new tool. I then
         worked on a large Enterprise Architecture project mapping the
-        departmental functions and maitaining an MS Access database where the
+        departmental functions and maintaining an MS Access database where the
         analysis results were held...we didn’t go ahead with the project.
       </p>
       <p className="md:w-2/3">
-        Due to unreliable contracting durations I moved to National Milk Records
-        when I worked supporting a nationwide milk testing system with
+        I moved to <a href="https://www.nmr.co.uk/">National Milk Records</a>{" "}
+        where I worked supporting a nationwide milk testing system with
         transactional SQL replication over 3 sites working closely with a
         dedicated team of DBA’s. During this role I solely developed two web
         systems, for microbiolical healthcheck result storage and one for
         presentation of farmers test data which are both in use today and
-        achieved the Microsoft Technology Specialist (MCTS) qualification. I
-        moved to BMT as a C#.NET web developer and learned Ext.NET for several
+        achieved the Microsoft Technology Specialist (MCTS) qualification.
+      </p>
+      <h2>Current Company</h2>
+      <p className="md:w-2/3">
+        I moved to BMT as a C#.NET web developer and learned Ext.NET for several
         of our key projects, one of which serves as our current management
         information system (MIS).
+      </p>
+      <p className="md:w-2/3">
+        I oversaw the migration from webforms to MVC and introduced many process
+        improvements as I found a new passion for improving the way work was
+        done, being promoted to Senior Software Development in the process.
+      </p>
+      <p className="md:w-2/3">
+        I have spent years working on a huge variety of innovative projects,
+        including introducing portable tablets to superseded traditional paper
+        based processes; Using unmanned air systems to survey hazardous scenes
+        to improve emergency services responses or introducing modern web
+        application approaches to cyber security planning operations.
+      </p>
+      <h2>A new role</h2>
+      <p className="md:w-2/3">
+        In late 2019 I took on the User Experience (UX) capability lead role on
+        BMT, where I am currently working on defining new tools and techniques
+        in the way we design digital services, how we measure our success for
+        our customers and influence the future of our company.
       </p>
     </Layout>
   )

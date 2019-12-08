@@ -16,7 +16,7 @@ I wanted to explore the _process_ of software development and opted setup a team
 
 Mob programming is an extreme/agile programming approach where the whole team works on the same time in the same place at the same time as described by [Woody Zuill](https://www.youtube.com/watch?v=SHOVVnRB4h0).
 
-This can be interpreted in different ways as many agile principals but we implemented `Mobbing` as our whole team working in the same room, with a single monitor and keyboard and having a single team member typing at any one point in time, rotating the role of _Typer_ at a set interval.
+This can be interpreted in different ways as many agile principals but we implemented **Mobbing** as our whole team working in the same room, with a single monitor and keyboard and having a single team member typing at any one point in time, rotating the role of **Typer** at a set interval.
 
 Specifically we chose:
 
@@ -58,9 +58,9 @@ After deciding on our IDE we chose to use React & Create React App to scaffold t
 
 What's interesting is that the more experienced developers naturally started explaining not only how to achieve tasks, but what was happening,
 
-> now it's installing the dependencies
+> Now it's installing the dependencies
 
-> you get a skeleton test setup out of the box
+> You get a skeleton test setup out of the box
 
 ## Hitting a problem
 
@@ -70,7 +70,7 @@ We naturally stopped typing and time ticked away as we discussed possible option
 
 One important observation is that as we discussed hacky workarounds such as tweaking the browser security settings (it was a hackathon after all!) the group organically came to the conclusion that
 
-> we may as well do it properly
+> We may as well do it properly
 
 I truly feel that the group had at this point made a decision about it's attitude to code quality which meant we weren't going to be able to get away with the type of hacks you may be tempted to sneak in as an individual _"to save time"_.
 

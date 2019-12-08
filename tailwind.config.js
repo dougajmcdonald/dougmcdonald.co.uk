@@ -2,7 +2,7 @@ module.exports = {
   theme: {
     fontFamily: {
       display: ['"Archivo Narrow"'],
-      body: ['"Source sans pro"'],
+      body: ['"Work sans"'],
     },
     fontSize: {
       xs: "0.563rem",

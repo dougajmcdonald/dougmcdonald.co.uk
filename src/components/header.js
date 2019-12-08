@@ -29,7 +29,7 @@ const Header = () => (
           DOUG MCDONALD
         </span>
       </Link>
-      <nav className="w-full fixed bottom-0 left-0 flex flex-row items-center justify-center h-4xl bg-white upshadow md:shadow-none pb-xxs z-50 md:relative md:ml-3xl md:h-auto md:flex-1">
+      <nav className="w-full fixed bottom-0 left-0 flex flex-row items-center justify-center h-4xl bg-white upshadow md:shadow-none pb-xxs z-50 md:relative md:ml-3xl md:h-auto md:flex-1 uppercase md:normal-case">
         <Link className="nav-link" to="/" activeClassName="nav-link-active">
           Blog
         </Link>

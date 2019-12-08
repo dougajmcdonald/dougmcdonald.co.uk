@@ -1,8 +1,8 @@
 module.exports = {
   theme: {
     fontFamily: {
-      display: ['"IBM plex sans condensed"'],
-      body: ['"Work sans"'],
+      display: ['"Archivo narrow"'],
+      body: ['"Source sans pro"'],
     },
     fontSize: {
       xs: "0.563rem",

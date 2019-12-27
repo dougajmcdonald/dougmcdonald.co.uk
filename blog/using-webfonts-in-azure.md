@@ -47,7 +47,7 @@ For some bizarre reason the `.woff` and `.woff2` extensions used by many webfont
 
 You can solve this by telling Azure what to do with the extensions via a `mimeType` mapping in a `web.config` in the root of your site.
 
-> NOTE: You still need this file if your backend is `node` or something other than `dotnet`.
+**NOTE: You still need this file if your backend is `node` or something other than `dotnet`**
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>

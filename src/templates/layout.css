@@ -121,7 +121,7 @@ blockquote > p {
   }
 
   .lede {
-    @apply w-2/3;
+    @apply w-4/5;
   }
 }
 

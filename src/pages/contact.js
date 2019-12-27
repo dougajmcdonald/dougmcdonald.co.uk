@@ -25,9 +25,9 @@ export default () => {
           aria-label="Email"
           className="w-4xl"
         >
-          <Email className="w-lg h-xl text-access-grey fill-current mr-xl hover:text-primary" />
+          <Email className="w-xl h-xl text-access-grey fill-current mr-xl hover:text-primary" />
         </a>
-        <p className="align-top">Drop me an email, like the good old days.</p>
+        <p className="w-full">Drop me an email, like the good old days.</p>
       </section>
       <section className="flex mb-xl">
         <a
@@ -37,7 +37,7 @@ export default () => {
         >
           <Twitter className="w-xl h-xl text-access-grey fill-current hover:text-primary" />
         </a>
-        <p className="align-top">Sometimes I tweet things, send me a tweet.</p>
+        <p className="w-full">Sometimes I tweet things, send me a tweet.</p>
       </section>
       <section className="flex mb-xl">
         <a
@@ -47,7 +47,7 @@ export default () => {
         >
           <Github className="w-xl h-xl text-access-grey fill-current mr-xl hover:text-primary" />
         </a>
-        <p className="align-top">
+        <p className="w-full">
           I still write code and design things when I have time, take a look
           over on Github. Perhaps submit a Pull Request.
         </p>

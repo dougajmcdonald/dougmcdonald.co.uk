@@ -3,6 +3,7 @@ path: /nifi-in-docker-with-persistent-workflow
 date: 2019-10-24T20:06:48.831Z
 title: NIFI in Docker with persistent workflow
 image: images/nifi.png
+draft: false
 ---
 
 This post talks you through how to setup a Nifi docker container and automate the inclusion of a custom processor `.nar` file, an existing `template.xml` and a `workflow` in a running state.
@@ -93,7 +94,7 @@ docker cp <container_id>:/opt/nifi/nifi-1.6.0/conf/flow.xml.gz flow.xml.gz
 
 We now have a copy of our NiFi state. Next we need to use that state when we run our container. To do this we can use `COPY` again to copy the file back in each time we start the container.
 
-__NOTE: COPY always copies as root so the user the container runs as (nifi:nifi) won't have access to the file once we copy the file in. We can run a `--chown` at the same time to give ownership to the `nifi` user.__
+**NOTE: COPY always copies as root so the user the container runs as (nifi:nifi) won't have access to the file once we copy the file in. We can run a `--chown` at the same time to give ownership to the `nifi` user.**
 
 ```docker
 FROM apache/nifi:latest

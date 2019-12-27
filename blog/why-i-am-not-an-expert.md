@@ -3,6 +3,7 @@ path: /blog/why-i-am-not-an-expert
 date: 2017-11-01T17:12:55.962Z
 title: Why I'm not an expert
 image: images/webfonts.png
+draft: false
 ---
 
 Working in a technical profession I am compelled to keep abreast of new tools and techniques; however the sheer volume of new languages, frameworks, libraries and associated best practice can make this compulsion exhausting.

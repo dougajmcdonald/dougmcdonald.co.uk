@@ -3,6 +3,7 @@ path: /blog/continuous-delivery-with-node-and-azure
 date: 2017-12-28T18:06:55.962Z
 image: images/azure_lede.png
 title: Continuous delivery for node apps in azure
+draft: false
 ---
 
 This post describes how you can test, build and deploy a JavaScript app which required external tooling to build (such as Ember, Gatsby or Create React App) to Azure websites as simply as possible.
@@ -71,7 +72,7 @@ So what's going on here? wercker uses [Kubernetes](http://www.kubernetes.com) un
 
 We can then see a the pipeline step we called `deploy`.
 
-__NOTE: The step here must match the name you gave your pipeline in Wercker.__
+**NOTE: The step here must match the name you gave your pipeline in Wercker.**
 
 Next we have two `steps` denoted by a minus `-` and the indentation level.
 The first is a `script` step with three commands called `gatsby build`. It first installs the `gatsby-cli` (this could equally be `create-react-app`, `ember-cli` or similar) which is the tooling you need to actually build your site.
@@ -85,7 +86,7 @@ The other three parameters are the FTP publish url, username and password to use
 
 > You can get these values from the publish profile in Azure either [via powershell](<https://msdn.microsoft.com/en-us/library/dn414650(v=nav.90).aspx>) or by logging into the Portal selecting your app service and finding the link at the top.
 
-__Note: If your username is `awesomeapp\$awesomeapp` Azure will allow `awesomeapp` as the username, to avoid Wercker issues with the special characters.__
+**Note: If your username is `awesomeapp\$awesomeapp` Azure will allow `awesomeapp` as the username, to avoid Wercker issues with the special characters.**
 
 ![Azure publish profile from UI](images/azure-3.png)
 

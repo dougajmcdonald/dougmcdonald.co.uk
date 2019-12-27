@@ -3,6 +3,7 @@ path: /blog/meetings-are-a-ux-problem
 date: 2019-11-18T18:44:00.000Z
 image: images/meeting.png
 title: Meetings are a User Experience problem
+draft: true
 ---
 
 Meetings are often be critised as expensive, unneccesary and cited as having a negative impact on productivity. I believe meetings are a User Experience problem and can be significantly improved by taking some simple steps.

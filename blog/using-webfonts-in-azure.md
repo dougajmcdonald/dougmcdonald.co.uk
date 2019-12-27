@@ -3,6 +3,7 @@ path: /blog/using-webfonts-in-azure
 date: 2017-12-17T18:56:55.962Z
 title: Using webfonts in Azure
 image: images/webfonts.png
+draft: false
 ---
 
 Whenever I need to add a new site to Azure, webfonts always catch me out. More specifically the `.woff` and `.woff2` extensions which for some reason are not enabled on Azure by default. This post demonstrates how to self-host webfonts and tweak your Azure config to correctly serve them.

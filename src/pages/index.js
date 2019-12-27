@@ -29,9 +29,6 @@ export default ({
           passionate about creating excellent user experiences which meet
           business objectives and solve user problems.
         </p>
-        <p>
-          I talk too much, have a look at my blog to see what I’ve been up to.
-        </p>
       </Lede>
       {posts}
     </Layout>
@@ -49,6 +46,7 @@ export const pageQuery = graphql`
             title
             date(formatString: "MMMM DD, YYYY")
             path
+            draft
             image {
               childImageSharp {
                 # Specify the image processing specifications right in the query.

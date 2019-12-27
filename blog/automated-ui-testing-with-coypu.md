@@ -3,6 +3,7 @@ path: /blog/automated-ui-testing-with-coypu
 date: 2017-11-03T17:25:55.962Z
 title: Automated UI testing with Coypu
 image: images/coypu.png
+draft: false
 ---
 
 Recently I was working on a project with an immensely long multipart form (approximately 200 fields) and during this task our team established that it would be a huge time sink to need to manually regression test the form data entry each time we made changes.

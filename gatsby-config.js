@@ -6,12 +6,12 @@
 
 module.exports = {
   siteMetadata: {
-    title: "Doug McDonald - Blog",
+    title: "Doug McDonald - A user journey",
     titleTemplate: "%s · Superblog!",
     description:
       "Doug McDonald's personal blog, articles about coding, web-design and user experience.",
     url: "https://www.dougmcdonald.co.uk", // No trailing slash allowed!
-    image: "/image.png", // Path to your image you placed in the 'static' folder
+    image: "/favicon.png", // Path to your image you placed in the 'static' folder
     twitterUsername: "@dougajmcdonald",
   },
   plugins: [

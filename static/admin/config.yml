@@ -16,3 +16,4 @@ collections:
       - { name: title, label: Title }
       - { name: image, label: Image, widget: image }
       - { name: body, label: Body, widget: markdown }
+      - { name: draft, label: Draft, widget: boolean, default: false }

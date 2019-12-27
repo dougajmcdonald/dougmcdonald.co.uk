@@ -11,7 +11,10 @@ export default ({
   },
 }) => {
   const posts = edges
-    .filter(edge => !!edge.node.frontmatter.date) // You can filter your posts based on some criteria
+    .filter(
+      edge =>
+        !!edge.node.frontmatter.date && edge.node.frontmatter.draft === false
+    )
     .map(edge => <PostLink key={edge.node.id} post={edge.node} />)
   return (
     <Layout>

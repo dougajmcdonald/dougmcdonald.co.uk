@@ -2,18 +2,56 @@ import React from "react"
 
 import Layout from "../templates/layout"
 
+import Github from "../images/logo-github.svg"
+import Twitter from "../images/logo-twitter.svg"
+import Email from "../images/md-mail-open.svg"
+
+import Lede from "../components/lede"
+
 export default () => {
   return (
     <Layout>
-      <h2>Contact</h2>
-      <p className="md:w-2/3">
-        I'd love to hear from you if you want to discuss any of my blog posts,
-        or in general. I believe communication is the key to solving problems,
-        solve a problem and give me a shout!
-      </p>
-      <p>
-        <a href="mailto:dougajmcdonald@gmail.com">Email me</a>
-      </p>
+      <h1>Hello</h1>
+      <Lede>
+        <p>
+          I'd love to hear from you if you want to discuss any of my blog posts,
+          or in general. I believe communication is the key to solving problems,
+          solve a problem and give me a shout!
+        </p>
+      </Lede>
+      <section className="flex mt-3xl mb-xl">
+        <a
+          href="mailto:dougajmcdonald@gmail.com"
+          aria-label="Email"
+          className="w-4xl"
+        >
+          <Email className="w-lg h-xl text-access-grey fill-current mr-xl hover:text-primary" />
+        </a>
+        <p className="align-top">Drop me an email, like the good old days.</p>
+      </section>
+      <section className="flex mb-xl">
+        <a
+          href="https://www.twitter.com/dougajmcdonald"
+          aria-label="Github"
+          className="w-4xl"
+        >
+          <Twitter className="w-xl h-xl text-access-grey fill-current hover:text-primary" />
+        </a>
+        <p className="align-top">Sometimes I tweet things, send me a tweet.</p>
+      </section>
+      <section className="flex mb-xl">
+        <a
+          href="https://www.github.com/dougajmcdonald"
+          aria-label="Twitter"
+          className="w-4xl"
+        >
+          <Github className="w-xl h-xl text-access-grey fill-current mr-xl hover:text-primary" />
+        </a>
+        <p className="align-top">
+          I still write code and design things when I have time, take a look
+          over on Github. Perhaps submit a Pull Request.
+        </p>
+      </section>
     </Layout>
   )
 }

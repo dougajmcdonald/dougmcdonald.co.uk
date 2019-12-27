@@ -15,7 +15,21 @@ export default ({
     .map(edge => <PostLink key={edge.node.id} post={edge.node} />)
   return (
     <Layout>
-      <Lede></Lede>
+      <h1>Making a difference is hard</h1>
+      <Lede>
+        <p>
+          I lead teams, empower individuals and mentor colleagues. I build teams
+          built on trust and self belief.
+        </p>
+        <p>
+          I’ve been a software engineer for over fifteen years and I’m
+          passionate about creating excellent user experiences which meet
+          business objectives and solve user problems.
+        </p>
+        <p>
+          I talk too much, have a look at my blog to see what I’ve been up to.
+        </p>
+      </Lede>
       {posts}
     </Layout>
   )

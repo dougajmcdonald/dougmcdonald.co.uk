@@ -1,8 +1,8 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Github from "../images/logo-github.svg"
 import Twitter from "../images/logo-twitter.svg"
+import FooterLink from "../components/footer-link"
 
 const Footer = () => (
   <footer className="w-full relative h-full mb-4xl md:mb-auto">
@@ -16,17 +16,9 @@ const Footer = () => (
         </g>
       </svg>
       <nav className="text-access-grey font-display tracking-wide mt-xl hidden md:inline-block">
-        <Link className="footer-link" to="/">
-          Blog
-        </Link>
-        |
-        <Link className="footer-link" to="/about">
-          About
-        </Link>
-        |
-        <Link className="footer-link" to="/contact">
-          Contact
-        </Link>
+        <FooterLink path="/" text="Blog" />|
+        <FooterLink path="/about" text="About" />|
+        <FooterLink path="/context" text="Contact" />
       </nav>
       <div className="flex flex-row m-lg">
         <a href="https://www.github.com/dougajmcdonald" aria-label="Twitter">

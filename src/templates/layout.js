@@ -11,7 +11,7 @@ import "./layout.css"
 import "./prism.css"
 
 const Layout = ({ children }) => (
-  <div className="flex flex-col">
+  <div className="flex flex-col min-h-screen">
     <SEO />
     <Header />
     <main className="flex-1 w-3/4 md:w-3/5 mx-auto h-screen min-h-full mb-3xl">

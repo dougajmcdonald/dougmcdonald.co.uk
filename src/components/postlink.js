@@ -2,6 +2,8 @@ import React from "react"
 import { Link } from "gatsby"
 import Img from "gatsby-image"
 
+import Date from "../components/post-date"
+
 const PostLink = ({ post: { excerpt, frontmatter } }) => (
   <Link
     to={frontmatter.path}
@@ -13,7 +15,7 @@ const PostLink = ({ post: { excerpt, frontmatter } }) => (
       className="inline-block mr-sm md:mr-3xl"
     />
     <div className="flex flex-col inline-block md:w-2/3 mt-base md:mt-auto">
-      <span className="date">{frontmatter.date}</span>
+      <Date>{frontmatter.date}</Date>
       <h3 className="post-title">{frontmatter.title}</h3>
       <span className="inline-block w-5xl h-xxxs bg-primary mb-lg"></span>
       <p className="leading-relaxed">{excerpt}</p>

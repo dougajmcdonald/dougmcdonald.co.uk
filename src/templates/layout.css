@@ -4,10 +4,6 @@ h1 {
   @apply font-display text-3xl w-3/4 font-bold text-not-quite-black leading-none;
 }
 
-.lede {
-  @apply text-lg font-light mt-base text-access-grey w-full;
-}
-
 h2 {
   @apply font-display text-xl text-primary mt-2xl mb-base;
 }
@@ -60,8 +56,8 @@ blockquote > p {
   @apply text-lg text-not-quite-black mx-lg;
 }
 
-.date {
-  @apply font-display text-base text-access-grey uppercase;
+.lede > p {
+  @apply text-lg font-light mt-base text-access-grey w-full;
 }
 
 .nav-link {
@@ -81,14 +77,6 @@ blockquote > p {
 
 .post-link:hover h3 {
   @apply underline;
-}
-
-.footer-link {
-  @apply mr-lg ml-lg font-medium leading-loose;
-}
-
-.footer-link:hover {
-  @apply border-primary border-b-2;
 }
 
 .upshadow {

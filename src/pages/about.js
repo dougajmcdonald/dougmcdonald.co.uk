@@ -1,12 +1,24 @@
 import React from "react"
 
 import Layout from "../templates/layout"
-import AboutLede from "../components/about-lede"
+import Lede from "../components/lede"
 
 export default () => {
   return (
     <Layout>
-      <AboutLede />
+      <h1>I'm honest</h1>
+      <Lede>
+        <p>I’m not an expert, I’m a generalist in all things software.</p>
+        <p>
+          I’m a unicorn that can develop full stack in multiple languages,
+          design a secure, accessible system with an excellent user experience
+          and create the CI/CD pipeline to build and deploy it.
+        </p>
+        <p>
+          Or I can do none of those things and build a team which will do it for
+          you.
+        </p>
+      </Lede>
       <h2>About Me</h2>
       <p className="md:w-2/3">
         My name is Doug McDonald, I’m the User Experience Capability lead at

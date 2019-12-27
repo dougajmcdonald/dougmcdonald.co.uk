@@ -1,7 +1,7 @@
 import React from "react"
 
-import Github from "../images/logo-github.svg"
-import Twitter from "../images/logo-twitter.svg"
+import Github from "../svg/logo-github.svg"
+import Twitter from "../svg/logo-twitter.svg"
 import FooterLink from "../components/footer-link"
 
 const Footer = () => (

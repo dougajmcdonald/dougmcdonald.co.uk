@@ -2,9 +2,9 @@ import React from "react"
 
 import Layout from "../templates/layout"
 
-import Github from "../images/logo-github.svg"
-import Twitter from "../images/logo-twitter.svg"
-import Email from "../images/md-mail-open.svg"
+import Github from "../svg/logo-github.svg"
+import Twitter from "../svg/logo-twitter.svg"
+import Email from "../svg/md-mail-open.svg"
 
 import Lede from "../components/lede"
 

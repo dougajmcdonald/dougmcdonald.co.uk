@@ -58,6 +58,8 @@ The best approach here would be for naming collisions and accidental overrides t
 
 A utility-first framework is a way to provide CSS utility classes such as `rounded`, `bg-blue` or `md:w-1/2` which you can simply add directly yo your HTML. The classes translate into CSS properties, so `rounded` might equate to `border-radius: 0.5rem;` or `bg-blue` to `background-color: blue;` so that you have to write literally zero CSS.
 
+![Tailwind example](images/tailwind_example.png)
+
 ### But that's just inline styles!
 
 It's not, trust me! whilst it _looks_ a bit like inline styles, what you're doing is applying a known set of defined values which helps you achieve consistency.
@@ -98,7 +100,7 @@ It's quite simple to inspect an HTML element in the browser, see the actual CSS 
 
 From personal experience the _only_ downsides I've spotted are:
 
-### Lengthy className definitions
+### Lengthy `className` definitions
 
 Complex elements can end up with a long list of classes. This can look a bit messy but isn't a major problem in my opinion. There are some solutions to this, such as using the [@apply](https://tailwindcss.com/docs/extracting-components/) directive, but I'd advise avoiding this until you feel it becomes a problem for your team.
 

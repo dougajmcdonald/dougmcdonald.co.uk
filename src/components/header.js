@@ -47,7 +47,7 @@ const Header = () => (
       </nav>
     </div>
     <svg
-      className="absolute top-0 right-0 w-1/4 md:w-1/6 text-primary"
+      className="absolute top-0 right-0 w-1/3 md:w-1/6 text-primary"
       viewBox="-25 0 100 100"
     >
       <g transform="rotate(315)">

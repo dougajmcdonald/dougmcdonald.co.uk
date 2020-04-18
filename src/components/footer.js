@@ -8,7 +8,7 @@ const Footer = () => (
   <footer className="w-full relative h-full mb-4xl md:mb-auto">
     <section className="flex flex-col items-center mb-sm">
       <svg
-        className="absolute left-0 w-1/4 md:w-1/6 text-primary"
+        className="absolute left-0 w-1/3 md:w-1/6 text-primary"
         viewBox="50 0 100 100"
       >
         <g transform="rotate(315)">

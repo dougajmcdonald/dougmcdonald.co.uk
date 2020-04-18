@@ -1,8 +1,8 @@
-import React from "react"
+import React from 'react'
 
-import Layout from "../templates/layout"
-import Lede from "../components/lede"
-import Family from "../images/family1.png"
+import Layout from '../templates/layout'
+import Lede from '../components/lede'
+import Family from '../images/family1.png'
 
 export default () => {
   return (
@@ -12,8 +12,8 @@ export default () => {
         <p>I’m not an expert, I’m a generalist in all things software.</p>
         <p>
           I’m a unicorn that can develop full stack in multiple languages,
-          design a secure, accessible system with an excellent user experience
-          and create the CI/CD pipeline to build and deploy it.
+          design a secure, accessible system with excellent user experience and
+          create the CI/CD pipeline to build and deploy it.
         </p>
         <p>
           Or I can do none of those things and build a team which will do it for
@@ -23,10 +23,10 @@ export default () => {
       <h2>About Me</h2>
       <p className="md:w-2/3">
         My name is Doug McDonald, I’m the User Experience Capability lead at
-        BMT. I live in Wiltshire, UK with my wife Kim and our daughter Phoebe. I
+        BMT. I live in Wiltshire, with my wife Kim and our daughter Phoebe. I
         enjoy developing software and my passion is designing user interfaces.
       </p>
-      <img src={Family} />
+      {/* <img src={Family} /> */}
 
       <p className="md:w-2/3">
         I’m lucky enough to be able to combine my coding expertise with my
@@ -41,16 +41,16 @@ export default () => {
         sale (EPOS) system learning SQL from books.
       </p>
       <p className="md:w-2/3">
-        In the project support department I worked the implementation of the IBM
-        Artemis7, helping capture requirements and building an online help
+        In the project support department, I worked the implementation of the
+        IBM Artemis7, helping capture requirements and building an online help
         system to guide users on the new tool. I then worked on a large
         Enterprise Architecture project mapping the departmental functions.
       </p>
       <p className="md:w-2/3">
-        I moved to <a href="https://www.nmr.co.uk/">National Milk Records</a>{" "}
+        I moved to <a href="https://www.nmr.co.uk/">National Milk Records</a>{' '}
         where I supported a nationwide milk testing system working closely with
-        a dedicated team of DBA’s. During this role I developed two web systems,
-        one for microbiolical healthcheck result storage and one for
+        a dedicated team of DBAs. During this role, I developed two web systems,
+        one for microbiological health check result storage and one for the
         presentation of farmers test data which are both in use today. I also
         studied for and achieved the Microsoft Technology Specialist (MCTS)
         qualification in .NET Web Application development.
@@ -64,11 +64,11 @@ export default () => {
         Software Development in the process.
       </p>
       <p className="md:w-2/3">
-        I've worked on huge variety of innovative projects, including
-        introducing portable tablets to superseded traditional paper based
+        I've worked on a huge variety of innovative projects, including
+        introducing portable tablets to superseded traditional paper-based
         processes; Using unmanned air systems to survey hazardous scenes to
         improve emergency services responses or introducing modern web
-        application approaches to cyber security planning operations.
+        application approaches to Cyber-security planning operations.
       </p>
       <h2>A new role</h2>
       <p className="md:w-2/3">

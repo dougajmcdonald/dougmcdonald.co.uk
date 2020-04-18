@@ -1,8 +1,8 @@
-import React from "react"
+import React from 'react'
 
-import Github from "../svg/logo-github.svg"
-import Twitter from "../svg/logo-twitter.svg"
-import FooterLink from "../components/footer-link"
+import Github from '../svg/logo-github.svg'
+import Twitter from '../svg/logo-twitter.svg'
+import FooterLink from '../components/footer-link'
 
 const Footer = () => (
   <footer className="w-full relative h-full mb-4xl md:mb-auto">
@@ -18,7 +18,7 @@ const Footer = () => (
       <nav className="text-access-grey font-display tracking-wide mt-xl hidden md:inline-block">
         <FooterLink path="/" text="Blog" />|
         <FooterLink path="/about" text="About" />|
-        <FooterLink path="/context" text="Contact" />
+        <FooterLink path="/contact" text="Contact" />
       </nav>
       <div className="flex flex-row m-lg">
         <a href="https://www.github.com/dougajmcdonald" aria-label="Twitter">

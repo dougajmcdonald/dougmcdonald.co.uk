@@ -1,13 +1,10 @@
-import React from "react"
-import { Link } from "gatsby"
+import React from 'react'
+import { Link } from 'gatsby'
 
 const Header = () => (
   <header className="h-5xl w-full mb-3xl md:mb-4xl">
     <div className="w-3/4 md:w-2/3 h-full flex flex-row mx-auto justify-center border-b-2 border-gray-200">
-      <Link
-        to="/"
-        className="flex flex-row flex-1 items-start h-full md:-ml-4xl"
-      >
+      <Link to="/" className="flex flex-row flex-1 items-start h-full">
         <svg
           className="self-center text-access-grey font-medium"
           height="54"

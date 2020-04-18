@@ -1,9 +1,9 @@
-import React from "react"
-import { graphql } from "gatsby"
+import React from 'react'
+import { graphql } from 'gatsby'
 
-import Layout from "../templates/layout"
-import Lede from "../components/lede"
-import PostLink from "../components/postlink"
+import Layout from '../templates/layout'
+import Lede from '../components/lede'
+import PostLink from '../components/postlink'
 
 export default ({
   data: {
@@ -22,7 +22,7 @@ export default ({
       <Lede>
         <p>
           I lead teams, empower individuals and mentor colleagues. I build teams
-          built on trust and self belief.
+          built on trust and self-belief.
         </p>
         <p>
           I’ve been a software engineer for over fifteen years and I’m

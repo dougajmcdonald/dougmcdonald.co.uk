@@ -48,7 +48,7 @@ CSS is an interesting language and one area where I believe people come unstuck 
 
 Styling approaches such as [Block Element Modifier](http://getbem.com/) (BEM), [CSS Modules](https://github.com/css-modules/css-modules) and Styled Components have ways to help with the problem of naming collisions in different ways. BEM uses a naming convention methodology, CSS Modules use auto-generated non-conflicting class names and Styled Components by generating inline styles from JS code.
 
-Whilst these approaches work, often the code which comes out is hard to reason with. This is the output in the browser from styled components for example:
+Whilst these approaches work, often the code which comes out is hard to reason with. This is the output in the browser from styled components
 
 `<header class="sc-eqIVtm giGlc"></header>`
 

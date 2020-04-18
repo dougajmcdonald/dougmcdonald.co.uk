@@ -1,8 +1,8 @@
-import React from "react"
-import { graphql } from "gatsby"
+import React from 'react'
+import { graphql } from 'gatsby'
 
-import Layout from "../templates/layout"
-import Date from "../components/post-date"
+import Layout from '../templates/layout'
+import Date from '../components/post-date'
 
 export default function Template({ data }) {
   const { markdownRemark } = data // data.markdownRemark holds your post data

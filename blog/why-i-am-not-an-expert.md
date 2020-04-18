@@ -2,7 +2,7 @@
 path: /blog/why-i-am-not-an-expert
 date: 2017-11-01T17:12:55.962Z
 title: Why I'm not an expert
-image: images/webfonts.png
+image: images/generalist.png
 draft: false
 ---
 

@@ -1,5 +1,5 @@
 {
-  "name": "dougmcdonald.co.uk - a user journey",
+  "name": "dougmcdonald.co.uk",
   "private": true,
   "description": "dougmcdonald.co.uk - a user journey",
   "version": "0.1.0",
@@ -36,17 +36,16 @@
     "typeface-archivo-narrow": "0.0.72",
     "typeface-ibm-plex-sans-condensed": "0.0.61",
     "typeface-source-code-pro": "0.0.71",
-    "typeface-source-sans-pro": "0.0.75",
-    "typeface-work-sans": "0.0.72"
+    "typeface-source-sans-pro": "0.0.75"
   },
   "devDependencies": {
     "prettier": "^1.18.2"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+    "url": "https://github.com/dougajmcdonald/dougmcdonald.co.uk"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/dougajmcdonald/dougmcdonald.co.uk/issues"
   }
 }

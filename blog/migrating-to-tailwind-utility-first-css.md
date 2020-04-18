@@ -78,8 +78,6 @@ TailwindCSS ensures naming collisions are a non-issue, by reducing CSS selector 
 
 ## The benefits
 
-Using a utility-first approach has several key benefits.
-
 ### You're not writing CSS or naming CSS classes.
 
 Just think about this for a second, you're styling your application...without writing CSS or having to spend time creating, refactoring and maintaining naming schemes.
@@ -97,8 +95,6 @@ You can simply apply classes prefixed with `sm:`, `md:` and `lg:` with pre-set b
 It's quite simple to inspect an HTML element in the browser, see the actual CSS class which is applied and understand where it came from because the class names in tailwind in your dev environment are the same as in the browser, no abstraction, no re-direction...just a CSS class...made with...you know, CSS.
 
 ## The downsides
-
-From personal experience the _only_ downsides I've spotted are:
 
 ### Lengthy `className` definitions
 

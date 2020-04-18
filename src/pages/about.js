@@ -2,7 +2,6 @@ import React from 'react'
 
 import Layout from '../templates/layout'
 import Lede from '../components/lede'
-import Family from '../images/family1.png'
 
 export default () => {
   return (
@@ -26,7 +25,6 @@ export default () => {
         BMT. I live in Wiltshire, with my wife Kim and our daughter Phoebe. I
         enjoy developing software and my passion is designing user interfaces.
       </p>
-      {/* <img src={Family} /> */}
 
       <p className="md:w-2/3">
         I’m lucky enough to be able to combine my coding expertise with my

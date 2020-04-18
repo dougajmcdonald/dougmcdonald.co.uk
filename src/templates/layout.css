@@ -21,7 +21,7 @@ h4 {
 }
 
 p {
-  @apply font-body text-base text-access-grey mb-lg leading-normal;
+  @apply font-body text-body text-access-grey mb-lg leading-normal;
 }
 
 ::selection {
@@ -93,7 +93,7 @@ blockquote > p {
   }
 
   h3 {
-    @apply mt-3xl;
+    @apply mt-2xl;
   }
 
   h3.post-title {

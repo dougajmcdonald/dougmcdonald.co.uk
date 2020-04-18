@@ -46,7 +46,7 @@ They partially solve the problem of where to put your CSS by co-locating it with
 
 CSS is an interesting language and one area where I believe people come unstuck is understanding how the CSS they write will be applied to elements. On top of the technical aspects of [Specificity](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity) styles are applied in an order and override each other based on this, add automation, pre-processors and unpredictable file locations into this mix and it can be tricky to understand what actual source code locations contributed to a given style.
 
-Styling approaches such as [Block Element Modifier](http://getbem.com/) (BEM), [CSS Modules](https://github.com/css-modules/css-modules) and Styled Components have ways to help with the problem of naming collisions in different ways. BEM uses a naming convention methodology, CSS Modules use auto-generated non-conflicting class names and Styled Components by generating inline styles from JS code. //TODO: Check this
+Styling approaches such as [Block Element Modifier](http://getbem.com/) (BEM), [CSS Modules](https://github.com/css-modules/css-modules) and Styled Components have ways to help with the problem of naming collisions in different ways. BEM uses a naming convention methodology, CSS Modules use auto-generated non-conflicting class names and Styled Components by generating inline styles from JS code.
 
 Whilst these approaches work, often the code which comes out is hard to reason with. This is the output in the browser from styled components for example:
 

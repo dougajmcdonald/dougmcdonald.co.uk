@@ -1,12 +1,12 @@
-import React from "react"
+import React from 'react'
 
-import Layout from "../templates/layout"
+import Layout from '../templates/layout'
 
-import Github from "../svg/logo-github.svg"
-import Twitter from "../svg/logo-twitter.svg"
-import Email from "../svg/md-mail-open.svg"
+import Github from '../svg/logo-github.svg'
+import Twitter from '../svg/logo-twitter.svg'
+import Email from '../svg/md-mail-open.svg'
 
-import Lede from "../components/lede"
+import Lede from '../components/lede'
 
 export default () => {
   return (
@@ -49,7 +49,7 @@ export default () => {
         </a>
         <p className="w-full">
           I still write code and design things when I have time, take a look
-          over on Github. Perhaps submit a Pull Request.
+          over on Github.
         </p>
       </section>
     </Layout>

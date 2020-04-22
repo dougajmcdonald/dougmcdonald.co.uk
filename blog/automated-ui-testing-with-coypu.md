@@ -60,11 +60,11 @@ The ability to locate items by button text and form labels is a massive win as i
 
 Coypu does allow you to use more complex CSS or XPath selectors if you want to, but it's generally not needed, which would you rather?
 
-> `browser.FindCss(".menu.submenu", text: "Help")`
+`browser.FindCss(".menu.submenu", text: "Help")`
 
 or
 
-> `browser.ClickLink("Help")`
+`browser.ClickLink("Help")`
 
 The former is how I remember writing raw Selenium tests and the latter is how I always wanted to. The former relies on the implementation of your menu, the latter doesn't.
 
@@ -123,11 +123,11 @@ The other issue with automated UI tests is that you need something to test again
 
 One solution to this is to auto-deploy to via the CI build, but at the moment we're preferring letting the testers choose when to deploy the code rather than having it constantly updated. This may change as we move forward with the automated tests or if we see false negatives in the test results.
 
-It seems that Coypu isn't that regularly worked upon, there are some outstanding pull requests from 2015-2016 and very few commits lately.
+It seems that Coypu isn't that regularly worked upon, there are some outstanding pull requests from 2015 to 2016 and very few commits lately.
 
 ## Summary
 
-It's been a great experience automated the UI testing on the project and via a combination of Coypu and Phantom a really painless experience.
+It's been a great experience automated the UI testing on the project and via a combination of Coypu and Phantom a painless experience.
 I hope to post more specific Coypu UI testing information touching on topics such as running the same test suite through multiple browsers and how we setup a simple framework to allows testers to write tests easily in the future.
 
 For anyone who's used Selenium in the past and got bogged down in selector hell, timing issues and trying to locate transient elements such as modals and elements revealed by hover state, give it a go you won't regret it.

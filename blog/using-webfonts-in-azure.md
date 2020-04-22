@@ -20,25 +20,25 @@ This will work fine for Azure sites (well any sites) as you're not serving the f
 
 ## npm Typefaces
 
-When I was working on this site I can across an excellent project [Kyle Mathews](https://twitter.com/kylemathews) called [Typefaces](https://github.com/KyleAMathews/typefaces) which offers npm packages for all the existing Google fonts typefaces and many others. He was kind enough to add a package for the particular font I wanted to use for this site.
+When I was working on this site I can across an excellent project [Kyle Mathews](https://twitter.com/kylemathews) called [Typefaces](https://github.com/KyleAMathews/typefaces) which offers npm packages for all the existing Google fonts typefaces and many others. He was kind enough to add a package for the particular font I wanted.
 
-In order to self host one of the typefaces from this project you can simply `npm install` it.
+To self-host one of the typefaces from this project you can simply `npm install` it.
 
 ```javascript
 npm install typeface-league-spartan
 ```
 
-Once the package is installed, you can include it on your site by `import`ing it in a page / component like this:
+Once the package is installed, you can include it on your site by `import`ing it in a page / component.
 
 ```javascript
-import "typeface-league-spartan"
+import 'typeface-league-spartan'
 ```
 
 Then you can consume the font in your css referencing the `font-family` as shown in the snippet below
 
 ```css
 h1 {
-  font-family: "League Spartan", "Arial", "sans-serif";
+  font-family: 'League Spartan', 'Arial', 'sans-serif';
 }
 ```
 
@@ -62,9 +62,9 @@ You can solve this by telling Azure what to do with the extensions via a `mimeTy
 </configuration>
 ```
 
-## Cache control
+## Cache-control
 
-The previous snippet will get you up and running, but really you don't want your users to be getting a new copy of the webfont each time they visit your site since these files very rarely change.
+The previous snippet will get you up and running, but you don't want your users to be getting a new copy of the webfont each time they visit your site since these files very rarely change.
 
 By default the requests for resources will get sent from your client with a `no-cache` header, meaning that the client will try to re-request the font on each visit.
 
@@ -89,4 +89,4 @@ We can do better than that! with one more small tweak to our `web.config` we can
 </configuration>
 ```
 
-You can control the cache for specific files and folders via the `path` value on the `location` element. This site contains all the images and webfonts are output into static so that was a sensible place to control the cache in order to speed up rendering and save you, the visitor, precious mobile bandwidth!
+You can control the cache for specific files and folders via the `path` value on the `location` element to save you, the visitor, precious bandwidth!

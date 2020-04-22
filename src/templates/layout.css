@@ -37,7 +37,7 @@ p > a:hover {
 }
 
 ul {
-  @apply italic text-access-grey ml-xl mt-xl font-light;
+  @apply text-access-grey ml-xl mt-xl;
 }
 
 ul > li {

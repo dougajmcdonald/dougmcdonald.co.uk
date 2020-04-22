@@ -12,15 +12,15 @@ We had acceptable unit testing on the project at this point, just over 50% and r
 
 ![Test all the things](images/TestAllTheThings.jpg)
 
-The last time I attempted automated UI testing for .NET projects it wasn't a great experience. We used the Selenium webdriver and encountered issues with needing to write complex tests with CSS or XPath selectors to find elements.
-This wasn't helped by the fact we were using Ext.NET which generated complex HTML structures for it's controls and dynamic ID's unless specifically set.
+The last time I attempted automated UI testing for .NET projects it wasn't a great experience. We used the Selenium web-driver and encountered issues with needing to write complex tests with CSS or XPath selectors to find elements.
+This wasn't helped by the fact we were using Ext.NET which generated complex HTML structures for its controls and dynamic ID's unless specifically set.
 This made the tests brittle as changes to the nesting levels of elements or someone forgetting to set ID's caused failures and required constant maintenance.
 
 Having not seriously investigated automated UI testing for a while I felt this was a chance to assess the tools and put in place a simple framework which our testers could build on.
 
 The goals for the task were:
 
-- Simplicity - ensure other devs and testers could understand the tests
+- Simplicity - ensure other developers and testers could understand the tests
 - Automation - ensure the tests could be run as part of our TFS builds
 - Error highlighting - ensure the test errors could be effectively reported
 
@@ -34,10 +34,10 @@ That ladies and gentlemen is a Coypu ... It's not quite what you think, I am act
 
 > Coypu supports browser automation in .Net to help make tests readable, robust, fast to write and less tightly coupled to the UI
 
-> If your tests are littered with sleeps, retries, complex XPath expressions and IDs dug out of the source with FireBug then Coypu might help. - **GitHub Readme.md**
+> If your tests are littered with sleep, retry, complex XPath expressions and IDs dug out of the source with FireBug then Coypu might help. - **GitHub Readme.md**
 
 This sounded promising as the problems with complex expressions and issues with timings had been problems we'd experienced in the past and being able to de-couple UI tests from the UI implementation seemed like an interesting idea.
-Additionally Coypu's DSL / API is simple and untuitive for devs and testers alike, which really appealed.
+Additionally Coypu's DSL / API is simple and intuitive for developers and testers alike, which appealed.
 
 I setup an individual test for the happy case of one of our pages and it looked like this.
 
@@ -80,8 +80,8 @@ To do this the Coypu tests were added in their own project and the project exclu
 
 ## Error reporting
 
-As well as running the tests automatically I wanted to report the output in an effective way so that in the event of failure the team could easily identify the problem.
-However the issue with automated tests is that besides the failure message you don't get to **see** a lot of what happened, you might get a stack trace but that's not very accessible for our testers.
+As well as running the tests automatically I wanted to report test output so that the team could easily identify the cause of failures.
+However, the issue with automated tests is that besides the failure message you don't get to **see** a lot of what happened, you might get a stack trace but that's not very accessible for our testers.
 
 The solution to this is another handy Coypu feature, the ability to take screenshots of the test when it's executing.
 I didn't want to write this out each time, so I wrote a base class which provides a `Teardown` method that checks the status of each test and captures a screenshot if the test failed with the date, time and test name for later identification.
@@ -117,14 +117,13 @@ namespace Project.UI.Tests
 
 ## Downsides
 
-At the moment a failing build emails the team, it would be great if we could package the images with the email unfortunately I don't think TFS allows this level of customisation so our test failures still involve some leg work to dig out the failure images and match them up.
+At the moment build failures email the team, it would be great if we could package the images with the email unfortunately I don't think TFS allows this level of customisation so our test failures still involve some leg work to dig out the failure images and match them up.
 
-The other issue with automated UI tests is that you need something to test against. At the moment we are running the tests against a server which is deployed independently of the test run.
-This means is that unless we remember to deploy the test system daily, there could be new tests running on old code.
+The other issue with automated UI tests is that you need something to test against. At the moment we are running the tests against a server deployed independently of the test run. This means is that unless we remember to deploy the test system daily, there could be new tests running on old code.
 
-One solution to this is to auto deploy to via the CI build, but at the moment we're preferring letting the testers choose when to deploy the code rather than having it constantly updated. This may change as we move forward with the automated tests or if we see false negatives in the test results.
+One solution to this is to auto-deploy to via the CI build, but at the moment we're preferring letting the testers choose when to deploy the code rather than having it constantly updated. This may change as we move forward with the automated tests or if we see false negatives in the test results.
 
-Finally it seems like Coypu isn't that regularly worked upon, there are some outstanding pull requests from 2015-2016 and very few commit's lately. I have one feature I'd like it to offer, namely the ability to select radio buttons by position rather than needing specific names / ids so I may add this and see how it's received.
+It seems that Coypu isn't that regularly worked upon, there are some outstanding pull requests from 2015-2016 and very few commits lately.
 
 ## Summary
 

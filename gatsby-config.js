@@ -6,13 +6,13 @@
 
 module.exports = {
   siteMetadata: {
-    title: "Doug McDonald - A user journey",
-    titleTemplate: "%s · Superblog!",
+    title: 'Doug McDonald - A user journey',
+    titleTemplate: '%s · Superblog!',
     description:
       "Doug McDonald's personal blog, articles about coding, web-design and user experience.",
-    url: "https://www.dougmcdonald.co.uk", // No trailing slash allowed!
-    image: "/favicon.png", // Path to your image you placed in the 'static' folder
-    twitterUsername: "@dougajmcdonald",
+    url: 'https://www.dougmcdonald.co.uk', // No trailing slash allowed!
+    image: '/favicon.png', // Path to your image you placed in the 'static' folder
+    twitterUsername: '@dougajmcdonald',
   },
   plugins: [
     `gatsby-plugin-sharp`,
@@ -20,15 +20,15 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: "dougmcdonald.co.uk",
-        short_name: "dougmcdonald.co.uk",
-        start_url: "/",
-        background_color: "#fffff",
-        theme_color: "#2DCACA",
+        name: 'dougmcdonald.co.uk',
+        short_name: 'dougmcdonald.co.uk',
+        start_url: '/',
+        background_color: '#ffffff',
+        theme_color: '#2DCACA',
         // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
         // see https://developers.google.com/web/fundamentals/web-app-manifest/#display
-        display: "standalone",
-        icon: "src/images/favicon.png", // This path is relative to the root of the site.
+        display: 'standalone',
+        icon: 'src/images/favicon.png', // This path is relative to the root of the site.
         // An optional attribute which provides support for CORS check.
         // If you do not provide a crossOrigin option, it will skip CORS for manifest.
         // Any invalid keyword or empty string defaults to `anonymous`
@@ -49,7 +49,7 @@ module.exports = {
               // base for generating different widths of each image.
               maxWidth: 590,
               wrapperStyle:
-                "margin-left: 0!important; margin-right: 0!important;",
+                'margin-left: 0!important; margin-right: 0!important;',
             },
           },
         ],
@@ -79,5 +79,11 @@ module.exports = {
       },
     },
     `gatsby-plugin-netlify-cms`,
+    {
+      resolve: `gatsby-plugin-fullstory`,
+      options: {
+        fs_org: `TNG8E`,
+      },
+    },
   ],
 }

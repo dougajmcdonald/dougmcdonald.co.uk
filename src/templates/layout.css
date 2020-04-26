@@ -61,7 +61,7 @@ blockquote > p {
 }
 
 .nav-link {
-  @apply font-display text-base font-medium text-access-grey tracking-wide mx-xl pb-xxs mt-sm no-underline border-b-4 border-transparent;
+  @apply font-display text-base font-medium text-access-grey tracking-wide pb-xxs mt-sm no-underline border-b-4 border-transparent;
 }
 
 .nav-link:hover,

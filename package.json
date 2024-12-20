@@ -15,7 +15,7 @@
     "prepare": "npm run snyk-protect"
   },
   "dependencies": {
-    "gatsby": "^2.18.10",
+    "gatsby": "^5.14.1",
     "gatsby-image": "^2.2.33",
     "gatsby-plugin-feed": "^2.3.21",
     "gatsby-plugin-fullstory": "^2.2.3",
@@ -24,7 +24,7 @@
     "gatsby-plugin-postcss": "^2.1.13",
     "gatsby-plugin-react-helmet": "^3.1.16",
     "gatsby-plugin-react-svg": "^2.1.2",
-    "gatsby-plugin-sharp": "^2.3.2",
+    "gatsby-plugin-sharp": "^2.14.4",
     "gatsby-remark-images": "^3.1.33",
     "gatsby-remark-prismjs": "^3.3.24",
     "gatsby-source-filesystem": "^2.1.33",
@@ -40,7 +40,7 @@
     "typeface-ibm-plex-sans-condensed": "0.0.61",
     "typeface-source-code-pro": "0.0.71",
     "typeface-source-sans-pro": "0.0.75",
-    "snyk": "^1.316.1"
+    "snyk": "^1.1294.3"
   },
   "devDependencies": {
     "prettier": "^1.18.2"

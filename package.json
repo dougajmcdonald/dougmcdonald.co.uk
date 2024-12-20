@@ -40,7 +40,7 @@
     "typeface-ibm-plex-sans-condensed": "0.0.61",
     "typeface-source-code-pro": "0.0.71",
     "typeface-source-sans-pro": "0.0.75",
-    "snyk": "^1.316.1"
+    "snyk": "^1.1294.3"
   },
   "devDependencies": {
     "prettier": "^1.18.2"

@@ -1,7 +1,9 @@
 import React from "react"
 
-export default ({ children }) => (
-  <span className="font-display text-base text-access-grey uppercase">
+const PostDate = ({ children }) => (
+  <span className="font-mono text-xs text-slate-400 mb-2 block tracking-wider uppercase">
     {children}
   </span>
 )
+
+export default PostDate

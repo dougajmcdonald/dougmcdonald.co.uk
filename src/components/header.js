@@ -3,66 +3,46 @@ import { Link } from 'gatsby'
 
 const navLinks = [
   {
-    text: `Blog`,
-    to: `/`,
+    text: `Work`,
+    to: `/#work`,
+  },
+  {
+    text: `Philosophy`,
+    to: `/blog`,
   },
   {
     text: `About`,
     to: `/about`,
   },
-  {
-    text: `Contact`,
-    to: `/contact`,
-  },
 ]
 
 const Header = () => (
-  <header className="h-5xl w-full mb-3xl md:mb-4xl">
-    <div className="w-3/4 md:w-2/3 h-full flex flex-row mx-auto justify-center border-b-2 border-gray-200">
-      <Link to="/" className="flex flex-row flex-1 items-start h-full">
-        <svg
-          className="self-center text-access-grey font-medium"
-          height="54"
-          width="54"
-          viewBox="-50 -50 100 100"
-        >
-          <circle className="logo" r="44" />
-          <text
-            textAnchor="middle"
-            alignmentBaseline="middle"
-            fontSize="xx-large"
-            className="font-display fill-current"
-            letterSpacing="0.1rem"
-          >
-            dm
-          </text>
-        </svg>
-        <span className="self-center text-lg font-body ml-base inline-block leading-wider">
-          DOUG MCDONALD
+  <header className="sticky top-0 z-50 w-full border-b border-gray-100 bg-white/80 backdrop-blur-md">
+    <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-6 md:px-8">
+      <Link to="/" className="flex items-center space-x-2 font-bold tracking-tight text-slate-900 group">
+        <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-black text-white text-xs group-hover:bg-slate-800 transition-colors">
+          DM
         </span>
+        <span className="hidden sm:inline-block">Doug McDonald</span>
       </Link>
-      <nav className="w-full fixed bottom-0 left-0 flex flex-row items-center justify-center h-4xl bg-white upshadow md:shadow-none pb-xxs z-50 md:relative md:ml-3xl md:h-auto md:flex-1 uppercase md:normal-case">
+      <nav className="flex items-center gap-6 text-sm font-medium">
         {navLinks.map(link => (
-          <div className="w-1/3 md:w-1/4 flex items-center justify-center ">
-            <Link
-              className="nav-link"
-              to={link.to}
-              activeClassName="nav-link-active"
-            >
-              {link.text}
-            </Link>
-          </div>
+          <Link
+            key={link.to}
+            className="text-slate-500 transition-colors hover:text-slate-900"
+            to={link.to}
+          >
+            {link.text}
+          </Link>
         ))}
+        <a
+          className="hidden rounded-full bg-slate-900 px-4 py-1.5 text-xs font-medium text-white transition-colors hover:bg-slate-700 sm:inline-block"
+          href="mailto:dougajmcdonald@gmail.com"
+        >
+          Contact
+        </a>
       </nav>
     </div>
-    <svg
-      className="absolute top-0 right-0 w-1/3 md:w-1/6 text-primary"
-      viewBox="-25 0 100 100"
-    >
-      <g transform="rotate(315)">
-        <rect width="12%" height="450" className="fill-current"></rect>
-      </g>
-    </svg>
   </header>
 )
 

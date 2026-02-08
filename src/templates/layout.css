@@ -1,118 +1,58 @@
 @tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-h1 {
-  @apply font-display text-3xl w-3/4 font-bold text-not-quite-black leading-none;
-}
+@layer base {
+  html {
+    @apply antialiased scroll-smooth;
+  }
 
-h2 {
-  @apply font-display text-xl text-primary mt-2xl mb-base;
-}
+  body {
+    @apply font-sans text-slate-900 bg-white;
+  }
 
-h3 {
-  @apply font-display text-lg text-black font-medium text-not-quite-black mb-lg mt-2xl;
-}
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-sans tracking-tight text-slate-900;
+  }
 
-h3.post-title {
-  @apply mt-auto mb-xxs text-xl font-semibold leading-none;
-}
-
-h4 {
-  @apply font-display text-base text-black font-bold text-not-quite-black mb-sm mt-lg;
-}
-
-p {
-  @apply font-body text-body text-access-grey mb-lg leading-normal;
-}
-
-::selection {
-  @apply bg-primary text-white opacity-75;
-}
-
-p > a {
-  @apply text-primary font-semibold;
-}
-
-p > a:hover {
-  @apply underline;
-}
-
-ul {
-  @apply text-access-grey ml-xl mt-xl;
-}
-
-ul > li {
-  @apply mb-base list-disc;
-}
-
-em {
-  @apply font-semibold;
-}
-
-blockquote {
-  @apply font-semibold font-body italic my-xl;
-}
-
-blockquote > p {
-  @apply text-lg text-not-quite-black mx-lg;
-}
-
-.lede > p {
-  @apply text-lg font-light mt-base text-access-grey w-full;
-}
-
-.nav-link {
-  @apply font-display text-base font-medium text-access-grey tracking-wide pb-xxs mt-sm no-underline border-b-4 border-transparent;
-}
-
-.nav-link:hover,
-.nav-link-active {
-  @apply border-primary border-b-4 cursor-pointer;
-}
-
-.logo {
-  fill: white;
-  stroke: #2dcaca;
-  stroke-width: 8;
-}
-
-.post-link:hover h3 {
-  @apply underline;
-}
-
-.upshadow {
-  box-shadow: 0 -4px 8px rgba(196, 196, 196, 0.4);
-}
-
-@screen md {
   h1 {
-    @apply text-4xl w-2/3;
+    @apply text-4xl font-bold;
   }
 
   h2 {
-    @apply mt-3xl;
+    @apply text-2xl font-semibold mt-8 mb-4;
   }
 
   h3 {
-    @apply mt-2xl;
+    @apply text-xl font-medium mt-6 mb-3;
   }
 
-  h3.post-title {
-    @apply text-2xl;
+  p {
+    @apply mb-4 leading-relaxed text-slate-600;
   }
 
-  blockquote {
-    @apply my-2xl;
+  a {
+    @apply transition-colors;
   }
-
-  .nav-link {
-    @apply ml-3xl mr-3xl;
-  }
-
-  .lede {
-    @apply w-3/5;
+  
+  /* Blog post specific styles overrides if needed */
+  .prose p {
+     @apply mb-6;
   }
 }
 
-@tailwind components;
-
-@tailwind utilities;
+@layer components {
+  /* Minimal scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    @apply bg-transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    @apply bg-slate-200 rounded-full hover:bg-slate-300;
+  }
+}

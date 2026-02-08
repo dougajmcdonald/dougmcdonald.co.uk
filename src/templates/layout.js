@@ -1,20 +1,26 @@
 import PropTypes from "prop-types"
 import React from "react"
-import "typeface-source-sans-pro"
-import "typeface-source-code-pro"
-import "typeface-archivo-narrow"
+import "@fontsource/inter"
+import "@fontsource/inter/500.css"
+import "@fontsource/inter/600.css"
+import "@fontsource/inter/700.css"
 import Header from "../components/header"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import Footer from "../components/footer"
 
 import "./layout.css"
 import "./prism.css"
 
-const Layout = ({ children }) => (
+const Layout = ({ children, containerClass }) => (
   <div className="flex flex-col min-h-screen">
-    <SEO />
+    <Seo />
     <Header />
-    <main className="flex-1 w-3/4 md:w-3/5 mx-auto h-screen min-h-full mb-3xl">
+    <main
+      className={
+        containerClass ||
+        "flex-1 w-full max-w-4xl mx-auto min-h-full px-6 md:px-8 py-24"
+      }
+    >
       {children}
     </main>
     <Footer />
@@ -23,6 +29,7 @@ const Layout = ({ children }) => (
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
+  containerClass: PropTypes.string,
 }
 
 export default Layout

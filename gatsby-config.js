@@ -15,6 +15,7 @@ module.exports = {
     twitterUsername: '@dougajmcdonald',
   },
   plugins: [
+    `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     {
@@ -76,13 +77,6 @@ module.exports = {
         rule: {
           include: /svg/,
         },
-      },
-    },
-    `gatsby-plugin-netlify-cms`,
-    {
-      resolve: `gatsby-plugin-fullstory`,
-      options: {
-        fs_org: `TNG8E`,
       },
     },
   ],

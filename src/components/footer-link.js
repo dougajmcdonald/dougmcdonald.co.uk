@@ -1,11 +1,13 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-export default ({ path, text }) => (
+const FooterLink = ({ path, text }) => (
   <Link
-    className="mx-lg font-medium leading-loose border-b-2 border-transparent hover:border-primary"
+    className="hover:text-slate-900 transition-colors"
     to={path}
   >
     {text}
   </Link>
 )
+
+export default FooterLink

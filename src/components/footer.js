@@ -5,33 +5,41 @@ import Twitter from '../svg/logo-twitter.svg'
 import FooterLink from '../components/footer-link'
 
 const Footer = () => (
-  <footer className="w-full relative h-full mb-4xl md:mb-auto">
-    <section className="flex flex-col items-center mb-sm">
-      <svg
-        className="absolute left-0 w-1/3 md:w-1/6 text-primary"
-        viewBox="50 0 100 100"
-      >
-        <g transform="rotate(315)">
-          <rect height="300px" width="12%" className="fill-current"></rect>
-        </g>
-      </svg>
-      <nav className="text-access-grey font-display tracking-wide mt-xl hidden md:inline-block">
-        <FooterLink path="/" text="Blog" />|
-        <FooterLink path="/about" text="About" />|
-        <FooterLink path="/contact" text="Contact" />
-      </nav>
-      <div className="flex flex-row m-lg">
-        <a href="https://www.github.com/dougajmcdonald" aria-label="Twitter">
-          <Github className="w-xl h-xl text-access-grey fill-current mr-xl hover:text-primary" />
+  <footer className="w-full border-t border-slate-100 py-12 mt-24">
+    <div className="mx-auto flex max-w-6xl flex-col items-center justify-between px-6 md:flex-row md:px-8">
+      <div className="flex flex-col items-center md:items-start">
+        <span className="text-sm font-semibold text-slate-900 mb-2">
+          Doug McDonald
+        </span>
+        <span className="text-xs text-slate-500">
+          &copy; {new Date().getFullYear()} All rights reserved.
+        </span>
+      </div>
+
+      <div className="flex gap-6 mt-6 md:mt-0">
+        <a
+          href="https://github.com/dougajmcdonald"
+          className="text-slate-400 hover:text-slate-900 transition-colors"
+          aria-label="GitHub"
+        >
+          <Github className="h-5 w-5 fill-current" />
         </a>
-        <a href="https://www.twitter.com/dougajmcdonald" aria-label="Github">
-          <Twitter className="w-xl h-xl ml-xl text-access-grey fill-current hover:text-primary" />
+        <a
+          href="https://twitter.com/dougajmcdonald"
+          className="text-slate-400 hover:text-slate-900 transition-colors"
+          aria-label="Twitter"
+        >
+          <Twitter className="h-5 w-5 fill-current" />
         </a>
       </div>
-      <span className="text-access-grey font-display tracking-widest">
-        dougmcdonald.co.uk &copy; 2019
-      </span>
-    </section>
+
+      <nav className="flex gap-6 mt-6 md:mt-0 text-sm text-slate-500 font-medium">
+        <FooterLink path="/#work" text="Work" />
+        <FooterLink path="/blog" text="Philosophy" />
+        <FooterLink path="/about" text="About" />
+        <a href="mailto:dougajmcdonald@gmail.com" className="hover:text-slate-900 transition-colors">Contact</a>
+      </nav>
+    </div>
   </footer>
 )
 
